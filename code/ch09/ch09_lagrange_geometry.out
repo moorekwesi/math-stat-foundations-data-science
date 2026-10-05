@@ -1,0 +1,8 @@
+Optimum x* = (20.00, 12.00),  u(x*) = 14.7204
+grad u(x*) = [0.2944 0.736 ]   grad g = [2. 5.]
+ratio grad u / grad g (componentwise): [0.1472 0.1472]
+Lagrange multiplier lambda = 0.1472
+
+At xb = (35.0, 6.0): u = 12.1484
+angle between grad u and grad g = 15.28 degrees
+directional derivative of u along budget line = -0.3223

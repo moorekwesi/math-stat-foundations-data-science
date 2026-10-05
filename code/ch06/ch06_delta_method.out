@@ -1,0 +1,10 @@
+Ratio of means (aggregate food share), n = 400
+  true R = 0.2563, mean of R_hat = 0.2564
+  Monte Carlo sd of R_hat = 0.00261
+  mean delta-method se    = 0.00257
+  coverage of R_hat +- 1.96 se = 0.946
+
+Arc price elasticity  eta = log(q1/q0)/log(p1/p0)
+  true eta = -0.4573, mean of eta_hat = -0.4574
+  Monte Carlo sd = 0.1218, delta-method se = 0.1215
+  95% interval: -0.457 +- 0.238

@@ -1,0 +1,16 @@
+ratio 0.50: RQ error after 60 its = 3.55e-15, 1-|cos| = 0.00e+00
+ratio 0.80: RQ error after 60 its = 6.14e-11, 1-|cos| = 1.54e-11
+ratio 0.95: RQ error after 60 its = 2.07e-02, 1-|cos| = 2.09e-02
+inverse iteration k=1: RQ = 17.115652051672
+inverse iteration k=2: RQ = 17.027092864696
+inverse iteration k=3: RQ = 17.005270242356
+inverse iteration k=4: RQ = 17.000984239529
+inverse iteration k=5: RQ = 17.000181655154
+inverse iteration k=6: RQ = 17.000033412167
+inverse iteration k=7: RQ = 17.000006139433
+inverse iteration k=8: RQ = 17.000001127784
+RQI k=0: rho = 30.802462909572359
+RQI k=1: rho = 30.999708977431222
+RQI k=2: rho = 30.999999999975792
+RQI k=3: rho = 30.999999999999979
+RQI k=4: rho = 30.999999999999968

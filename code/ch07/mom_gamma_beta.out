@@ -1,0 +1,10 @@
+One sample of n = 400
+  gamma: true (k, theta) = (2.50, 1.60), MoM = (2.432, 1.631)
+  beta : true (a, b)     = (2.00, 5.00), MoM = (1.965, 4.989)
+
+Monte Carlo over R = 5000 samples of size n = 400
+ param   true  mean est     bias      sd
+     k   2.50     2.530    0.030   0.213
+ theta   1.60     1.593   -0.007   0.144
+     a   2.00     2.017    0.017   0.144
+     b   5.00     5.042    0.042   0.380

@@ -1,0 +1,18 @@
+coordinate descent converged in 17 sweeps
+max |ours - sklearn| = 3.5e-12
+11 selected; 5 of 5 true signals among them
+    j      b_j   true
+    3   1.8651    2.0
+   17  -1.4025   -1.5
+   42   0.8707    1.0
+   86   0.0002    0.0
+   88   0.0176    0.0
+   99   0.6340    0.8
+  105   0.0297    0.0
+  127   0.0068    0.0
+  136  -0.0112    0.0
+  150  -0.5216   -0.6
+  161  -0.0083    0.0
+active set : max |c_j - alpha sign(b_j)| = 3.0e-12
+inactive   : max |c_j| = 0.0990 <= alpha = 0.1
+alpha_max = max|x_j'y|/n = 2.1465 (all coefficients zero above this)

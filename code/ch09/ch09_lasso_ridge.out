@@ -1,0 +1,9 @@
+Ridge: alpha = 5.0  ->  t = ||b||^2 = 125.066
+  max |b_penalised - b_constrained| = 3.56e-10
+  recovered multiplier 2*mu = 5.0000 (equals alpha)
+
+Lasso: alpha = 2.0  ->  t = ||b||_1 = 82.978
+  nonzero coefficients: sklearn 7, constrained 7
+  max |b_sklearn - b_constrained| = 2.05e-07
+  multiplier from KKT on active set = 2.0000 (equals alpha)
+  |grad_j| on zero coefficients <= alpha: True

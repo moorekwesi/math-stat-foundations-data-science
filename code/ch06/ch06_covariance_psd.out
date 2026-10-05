@@ -1,0 +1,8 @@
+eigenvalues of S_hat: [0.285 0.654 1.312 3.007]
+Var(index): w'S w = 0.6849  w'S_hat w = 0.6861  sample = 0.6861
+  ignoring covariances: sum w_i^2 s_ii = 0.3331
+min-variance weights: {'school': 0.182, 'health': 0.615, 'assets': 0.03, 'water': 0.173}
+  variance at w*: 0.5618
+
+inconsistent matrix eigenvalues: [-0.8  1.9  1.9]
+  'variance' of v'X for v = [-0.577  0.577  0.577]: -0.800  (< 0!)

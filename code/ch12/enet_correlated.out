@@ -1,0 +1,6 @@
+corr within group 1: [0.989 0.993]
+               x1     x2     x3     x4     x5     x6     x7     x8     x9    x10
+lasso        0.00   0.06   2.62  -0.98  -0.78  -0.00  -0.00   0.00  -0.00  -0.00
+enet         0.86   0.87   0.91  -0.63  -0.63  -0.62  -0.00   0.01  -0.00  -0.00
+lasso : nonzero in group 1 = 2, group 2 = 2, noise = 0; group sums 2.68, -1.76
+enet  : nonzero in group 1 = 3, group 2 = 3, noise = 1; group sums 2.64, -1.88

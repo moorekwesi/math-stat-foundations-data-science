@@ -1,0 +1,5 @@
+MoM start       : k = 2.3710, theta = 1.6537
+MLE (BFGS)      : k = 2.4185, theta = 1.6212
+  converged = True, iterations = 6, max |grad| = 7.2e-07
+scipy gamma.fit : k = 2.4185, theta = 1.6212
+Score eq. check : k*theta = 3.9208, mean(x) = 3.9208

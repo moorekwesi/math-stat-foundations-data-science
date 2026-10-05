@@ -1,0 +1,16 @@
+Poisson(3) via central differences of the MGF
+  M'(0)  = 3.0000  (exact E[X]   = 3.0000)
+  M''(0) = 12.0000  (exact E[X^2] = 12.0000)
+  t = 0.2: empirical MGF    1.9423  exact    1.9430
+  t = 0.5: empirical MGF    7.0030  exact    7.0018
+  t = 1.0: empirical MGF  175.7194  exact  173.2690
+
+Standard Cauchy: empirical characteristic function
+  t = 0.5: Re phi_hat =  0.6066  Im =  0.0012  exact exp(-|t|) = 0.6065
+  t = 1.0: Re phi_hat =  0.3676  Im =  0.0003  exact exp(-|t|) = 0.3679
+  t = 2.0: Re phi_hat =  0.1335  Im = -0.0014  exact exp(-|t|) = 0.1353
+  empirical MGF at t = 0.1 for growing n (does not settle):
+    n =   1000: 2.288e+06
+    n =  10000: 3.165e+241
+    n = 100000: inf
+    n = 200000: inf

@@ -1,0 +1,11 @@
+budget B = 100, S = 4000 Monte Carlo draws of (a, c)
+allocation                 cash   school   health training    mean     sd     P5
+plug-in (means)            21.2     25.8     23.1     30.0   160.6   47.6  105.5
+max E[benefit]             21.3     25.4     23.0     30.4   160.6   47.9  105.3
+mean - 1.0 sd              40.0     32.3     17.4     10.3   151.8   28.6  112.9
+mean - 2.0 sd              54.7     30.8     10.0      4.5   140.1   20.4  110.9
+
+expected marginal benefit per unit: [1.159 1.159 1.159 1.159]
+KKT multiplier (funded programmes): 1.1587
+finite difference dV/dB          : 1.1587
+MC s.e. of expected benefit at optimum: 0.698

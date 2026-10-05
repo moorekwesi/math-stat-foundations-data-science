@@ -1,0 +1,12 @@
+Budget GHS 300 million; transfers T_i in GHS per capita
+  weights      eta     North    Upper   Middle    Coast  Capital
+  utilitarian  0.5     168.6    108.6      0.0      0.0      0.0
+  utilitarian  1.0     168.6    108.6      0.0      0.0      0.0
+  utilitarian  2.0     168.6    108.6      0.0      0.0      0.0
+  equity       0.5     226.9     30.8      0.0      0.0      0.0
+  equity       1.0     198.2     69.1      0.0      0.0      0.0
+  equity       2.0     183.5     88.7      0.0      0.0      0.0
+
+SLSQP check (equity, eta=1): [198.2  69.1   0.    0.    0. ]
+multiplier lambda = 0.002895 = marginal social welfare of GHS 1 million
+weighted marginal utilities w_i/(y_i+T_i): [0.002895 0.002895 0.001923 0.001538 0.000889]

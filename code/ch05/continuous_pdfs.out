@@ -1,0 +1,9 @@
+distribution             mean     var    skew  median
+Uniform(0,1)            0.500   0.083   0.000   0.500
+Normal(0,1)             0.000   1.000   0.000   0.000
+Exponential(rate 2)     0.500   0.250   2.000   0.347
+Gamma(3, rate 2)        1.500   0.750   1.155   1.337
+Beta(2,5)               0.286   0.026   0.596   0.264
+LogNormal(0,0.5)        1.133   0.365   1.750   1.000
+Pareto(alpha 3)         1.500   0.750     nan   1.260
+Weibull(k 1.5)          0.903   0.376   1.072   0.783

@@ -1,0 +1,11 @@
+E[exp(U)] = e - 1 = 1.718282
+  plain      1.712713  var/eval 0.24394
+  antithetic 1.719528  var/eval 0.00197
+  control    1.719111  var/eval 0.00389  c* = -1.6869
+
+expected payout, exact: 21.6088
+method        estimate    s.e.     var/eval   efficiency gain
+plain           21.0828   0.4514     2037.88     1.00
+antithetic      21.0105   0.4056      411.20     4.96
+control var     20.8882   0.3623     1312.76     1.55
+corr(payout, rainfall) = -0.597; theory gain 1/(1-rho^2) = 1.55

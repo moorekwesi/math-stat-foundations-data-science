@@ -1,0 +1,4 @@
+forward mode (2 passes): grad = (5.500000, 1.716338)
+reverse mode (1 sweep) : grad = (5.500000, 1.716338)
+analytic               : grad = (5.500000, 1.716338)
+function value         : f = 11.652071

@@ -1,0 +1,9 @@
+Rapid test with sensitivity 0.95 and specificity 0.95
+prevalence     PPV     NPV  PPV sim
+      0.01   0.161   0.999    0.159
+      0.05   0.500   0.997    0.500
+      0.10   0.679   0.994    0.680
+      0.30   0.891   0.978    0.890
+      0.50   0.950   0.950    0.950
+
+Prevalence 0.05: P(ill | +) = 0.500, P(ill | +,+) = 0.950

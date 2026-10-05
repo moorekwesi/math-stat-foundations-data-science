@@ -1,0 +1,6 @@
+  kappa  iters 1/L  iters 2/(mu+L)  rate (k-1)/(k+1)  predicted
+      1          1               1            0.0000          1
+     10        172              92            0.8182         92
+    100       1799             922            0.9802        922
+   1000      18066            9211            0.9980       9211
+after 24 steps: GD ||x|| = 8.14e-02, heavy-ball ||x|| = 1.95e-05

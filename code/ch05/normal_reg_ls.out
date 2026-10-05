@@ -1,0 +1,7 @@
+coef     MLE (numeric)   OLS (lstsq)
+const         152.1335      152.1335
+bmi           603.0784      603.0784
+bp            262.2720      262.2720
+s5            543.8712      543.8712
+sigma_ML = 55.5252,  sqrt(RSS/n) = 55.5252,  sqrt(RSS/(n-k)) = 55.7782
+max loglik = -2402.613; formula -n/2 (log(2 pi RSS/n) + 1) = -2402.613

@@ -1,0 +1,9 @@
+Income Y = exp(X), X ~ N(1.0, 0.8^2)
+quantity       formula  simulated
+mean            3.7434     3.7454
+median          2.7183     2.7165
+variance       12.5626    12.4680
+P(Y <= 2)       0.3507     0.3509
+mode exp(mu - sigma^2) = 1.4333  < median < mean (right skew)
+integral of f_Y over (0, 80)        = 0.999988
+max |f_Y - scipy lognorm.pdf|       = 1.94e-16

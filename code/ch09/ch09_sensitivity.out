@@ -1,0 +1,14 @@
+Allocation at B = 4.0: [1.215 0.954 0.977 0.346 0.508]  lambda = 1.3542
+dx/da_health (IFT):         [-0.1704  0.5112 -0.1136 -0.142  -0.0852]
+dx/da_health (finite diff): [-0.1704  0.5112 -0.1136 -0.142  -0.0852]
+dx/dB (IFT):                [0.2308 0.3077 0.1538 0.1923 0.1154]  dlam/dB = -0.1411
+elasticity of x_i w.r.t. a_health: [-0.561  2.144 -0.465 -1.641 -0.671]
+
+Monte Carlo (R = 2000, 25% lognormal uncertainty in returns):
+  programme      x_nominal  mean   5%   95%   P(funded)
+  education        1.215   1.20  0.49  2.02    1.00
+  health           0.954   0.94  0.07  1.89    0.96
+  agric. ext.      0.977   0.97  0.46  1.62    1.00
+  water/sanit.     0.346   0.39  0.00  1.05    0.80
+  feeder roads     0.508   0.51  0.09  1.01    0.98
+  regret of nominal plan: mean 0.3099, 95th pct 0.7506 (outcome units)

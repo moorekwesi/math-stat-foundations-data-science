@@ -1,0 +1,6 @@
+Nominal 90% prediction intervals; n = 400, 300 replications
+method               overall   x<10  10-20   x>20  length  sd cov
+normal theory          0.924  0.984  0.938  0.850   1.385   0.018
+residual bootstrap     0.897  0.989  0.932  0.769   1.322   0.020
+split conformal        0.901  0.980  0.922  0.800   1.270   0.024
+weighted conformal     0.901  0.899  0.903  0.901   1.158   0.024

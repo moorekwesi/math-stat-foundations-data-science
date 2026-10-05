@@ -1,0 +1,16 @@
+Budget B = GHS 1.8 million (simulated returns)
+  programme     a_i/b_i   x_i(KKT)  x_i(SLSQP)  marg. return
+  education        3.00     0.686      0.686     1.7797
+  health           2.00     0.248      0.248     1.7797
+  agric. ext.      4.00     0.624      0.624     1.7797
+  water/sanit.     1.67     0.000      0.000     1.6667
+  feeder roads     2.50     0.243      0.243     1.7797
+  lambda = 1.7797: programmes funded iff a_i/b_i > lambda
+  outcome index V(B) = 4.1630
+
+entry budgets (B at which each programme starts):
+  agric. ext.   B = 0.000
+  education     B = 0.167
+  feeder roads  B = 0.500
+  health        B = 1.150
+  water/sanit.  B = 2.200

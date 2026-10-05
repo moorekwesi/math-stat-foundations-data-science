@@ -1,0 +1,9 @@
+95th percentiles: simulated vs exact
+  chi2(5)   11.042   11.070   mean  4.997 vs  5.000
+  t(5)       2.031    2.015   mean  0.005 vs  0.000
+  F(5,10)    3.335    3.326   mean  1.253 vs  1.250
+P(t(5)^2 > 3) = 0.1436,  F(1,5) tail = 0.1438
+(n-1)S^2/sigma^2: mean 6.998 (theory 7), var 13.935 (theory 14)
+corr(Xbar, S^2) = -0.0009
+two-sided 5% critical values of t(df) versus z = 1.960
+  df=2: 4.303  df=5: 2.571  df=10: 2.228  df=30: 2.042  df=120: 1.980

@@ -1,0 +1,12 @@
+logit link: IRLS converged in 6 iterations
+   true     -1.0000    0.2500   -0.1000
+   IRLS     -0.9294    0.2578   -0.1254
+   s.e.      0.0801    0.0094    0.0083
+   sklearn  -0.9294    0.2578   -0.1254
+log link: IRLS converged in 8 iterations
+   true      1.2000    0.0300   -0.0800
+   IRLS      1.2118    0.0294   -0.0833
+   s.e.      0.0216    0.0020    0.0026
+   sklearn   1.2118    0.0294   -0.0833
+odds ratio for +4 years of schooling = 2.805
+rate ratio for +10 km distance = 0.435

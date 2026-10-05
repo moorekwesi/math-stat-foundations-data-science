@@ -1,0 +1,8 @@
+Coverage of nominal 95% CIs for a lognormal mean (2000 reps, B = 499)
+method            n=10     n=25    n=100   avg length (n=25)
+t-interval       0.839    0.871    0.918       1.548
+normal           0.796    0.858    0.910       1.441
+percentile       0.804    0.864    0.914       1.402
+basic            0.772    0.841    0.897       1.402
+studentised      0.900    0.916    0.932       2.241
+BCa              0.825    0.876    0.916       1.574

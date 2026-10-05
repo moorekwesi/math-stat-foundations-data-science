@@ -1,0 +1,8 @@
+optimiser   excess loss  max |b - b*|
+SGD            6.24e-02        2.9637
+momentum       6.24e-02        2.9640
+AdaGrad        3.61e-04        0.0364
+RMSProp        2.62e-03        0.0493
+Adam           2.03e-04        0.0213
+sklearn SGDClassifier, raw X   : excess loss 6.47e-02
+sklearn SGDClassifier, scaled X: excess loss 1.90e-03

@@ -1,0 +1,12 @@
+kappa_2(A) = 40002.0; observed amplification = 40002.0
+ n   cond_2(H)   rel. error   kappa*eps
+ 2    1.93e+01    5.66e-16    4.28e-15
+ 4    1.55e+04    3.37e-14    3.44e-12
+ 6    1.50e+07    4.08e-11    3.32e-09
+ 8    1.53e+10    6.74e-08    3.39e-06
+10    1.60e+13    2.68e-05    3.56e-03
+12    1.64e+16    1.78e-01    3.65e+00
+14    3.21e+17    1.00e+01    7.14e+01
+cond(X) = 6.56e+05, cond(X'X) = 4.31e+11
+normal equations : rel. coef. error 3.28e-06
+QR               : rel. coef. error 1.23e-11

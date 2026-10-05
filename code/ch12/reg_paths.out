@@ -1,0 +1,13 @@
+order in which variables enter the lasso path:
+   bmi enters at alpha =   43.118
+    s5 enters at alpha =   41.167
+    bp enters at alpha =   21.535
+    s3 enters at alpha =   14.871
+   sex enters at alpha =    6.172
+    s6 enters at alpha =    4.069
+    s1 enters at alpha =    3.229
+    s4 enters at alpha =    0.925
+    s2 enters at alpha =    0.253
+   age enters at alpha =    0.242
+ridge edf at lambda = 1e-2: 10.00;  at 1e5: 0.044
+ridge: any exact zeros along the path? False

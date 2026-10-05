@@ -1,0 +1,8 @@
+m independent true-null z-tests on Bernoulli(0.5) means, n = 400
+    m    FWER  1-(1-a)^m    m*a  FWER Bonf  E max|dev|  Hoeffding
+    1   0.051      0.050   0.05      0.051      0.0202     0.0679
+    5   0.226      0.226   0.25      0.051      0.0388     0.0814
+   20   0.627      0.642   1.00      0.037      0.0536     0.0914
+  100   0.993      0.994   1.00      0.044      0.0682     0.1018
+  500   1.000      1.000   1.00      0.056      0.0807     0.1113
+Hoeffding column: max deviation bound holding with prob >= 0.95

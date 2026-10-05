@@ -1,0 +1,16 @@
+LU of (I - A):  max|PLU - (I - A)| = 2.8e-17
+final demand [100.  80. 120.] -> gross output [156.2 209.7 236.7]
+final demand [110.  80. 120.] -> gross output [168.7 213.8 239.5]
+final demand [100.  95. 130.] -> gross output [160.7 236.9 257.9]
+
+Cholesky factor L:
+ [[ 1.      0.      0.    ]
+ [ 0.56    0.5713  0.    ]
+ [ 0.2    -0.3361  0.3115]]
+target correlation (upper): [ 0.7  0.4 -0.2]
+sample correlation (upper): [ 0.698  0.4   -0.203]
+
+eigenvalues of 'bad' correlation matrix: [-0.8  1.9  1.9]
+np.linalg.cholesky(bad) fails: Matrix is not positive definite
+
+SPD solve residual ||Sigma x - b|| = 5.6e-17

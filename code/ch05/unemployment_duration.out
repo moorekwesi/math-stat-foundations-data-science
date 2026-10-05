@@ -1,0 +1,4 @@
+P(T > s + 3 | T > s) for simulated spells (months), s = 0, 3, 6, 12
+  exponential   0.606  0.605  0.609  0.610
+  Weibull k=0.7 0.497  0.646  0.687  0.731
+  exponential theory exp(-3/6) = 0.607

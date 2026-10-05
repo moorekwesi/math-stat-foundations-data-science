@@ -1,0 +1,12 @@
+round(0.5), round(1.5), round(2.5) = 0 2 2   (round half to even)
+round(2.675, 2) = 2.67   because 2.675 is stored as 2.67499999999999982236
+Decimal('2.665') half-up   -> 2.67
+Decimal('2.665') half-even -> 2.66
+Decimal(2.675) (from float) = 2.67499999999999982236431605997495353221893310546875
+
+VAT rounded per line   : 37502474 pesewas
+VAT rounded on total   : 37502175 pesewas
+difference             : 299 pesewas
+
+sector contributions, rounded to 1 dp: [0.7 1.  1.  0.2]  sum = 2.9
+aggregate growth rounded to 1 dp     : 3.0

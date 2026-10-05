@@ -1,0 +1,9 @@
+seed 803, run 1 : mean 544.066  boot se 14.9441  hash ef49432bfaa683f8
+seed 803, run 2 : mean 544.066  boot se 14.9441  hash ef49432bfaa683f8
+no seed         : identical to run 1? False
+
+first draw of 4 spawned streams: [ 0.4086 -1.0578  1.2185 -0.1658]
+spawned stream 0 reproducible?   True
+
+environment:
+  python 3.9.13, numpy 1.23.5, scipy 1.9.3, sklearn 1.1.3

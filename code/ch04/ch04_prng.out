@@ -1,0 +1,8 @@
+Middle-square from 1234: 1234 5227 3215 3362 3030 1809 2724 4201 6484 0422 ...
+  value 0000 recurs at step 57: the sequence has fallen into a short cycle
+
+RANDU: x[k+2] - 6 x[k+1] + 9 x[k] = 0 (mod 2^31) for all k? True
+
+bit generator: PCG64
+same seed, same stream: [0.545206 0.507696 0.392677] True
+spawned streams, first draw each: [0.160771 0.296841 0.682341]

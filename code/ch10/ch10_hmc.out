@@ -1,0 +1,4 @@
+HMC            iterations   2000  acceptance 0.960  min/median ESS    260 /    704
+               var(x1) 0.959 (target 1),  ESS per 1000 density evaluations 6.5
+RW-Metropolis  iterations  40000  acceptance 0.161  min/median ESS     59 /     65
+               var(x1) 0.790 (target 1),  ESS per 1000 density evaluations 1.5

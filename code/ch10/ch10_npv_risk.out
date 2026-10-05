@@ -1,0 +1,7 @@
+expected NPV        :    29.13  (MC s.e. 0.13)
+P(NPV < 0)          :   0.2391  (MC s.e. 0.0013)
+5%, 50%, 95% NPV    :   -28.04    24.77   101.01
+   Spearman corr(NPV, cost    ) = -0.318
+   Spearman corr(NPV, delay   ) = -0.170
+   Spearman corr(NPV, benefit ) =  0.841
+   Spearman corr(NPV, growth  ) =  0.343

@@ -1,0 +1,15 @@
+x = [ 3. -4.  1.  2.]   y = [ 1.  2. -2.  5.]
+<x, y> = 3.0
+||x||_1   =  10.0000    d_1  (x, y) =  14.0000
+||x||_2   =   5.4772    d_2  (x, y) =   7.6158
+||x||_inf =   4.0000    d_inf(x, y) =   6.0000
+cosine = 0.0939, angle = 84.61 degrees
+max |<u,v>|/(||u|| ||v||) = 0.951920  (must be <= 1)
+max ||u+v||/(||u||+||v||) = 0.988169  (must be <= 1)
+ratio when v = -3u        = 1.000000
+norm-equivalence chain holds for all 100,000 vectors: True
+largest ||u||_1/||u||_2 seen = 3.1229  (bound sqrt(10) = 3.1623)
+cosine similarity of budget shares (rural, peri-urban, urban):
+[[1.     0.991  0.8084]
+ [0.991  1.     0.8759]
+ [0.8084 0.8759 1.    ]]

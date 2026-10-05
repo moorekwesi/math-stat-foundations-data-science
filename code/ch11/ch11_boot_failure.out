@@ -1,0 +1,6 @@
+(a) maximum of a Uniform(0, theta) sample, n = 50
+  P*(theta* = theta_hat): nonparametric = 0.636, theory 1-(1-1/n)^n = 0.636
+  P*(theta* = theta_hat): parametric    = 0.000 (true limit law is continuous)
+(b) coverage of the 95% percentile bootstrap CI for a mean, n = 100
+  Pareto, alpha = 4.0 (finite variance)    coverage = 0.922
+  Pareto, alpha = 1.5 (infinite variance)  coverage = 0.736

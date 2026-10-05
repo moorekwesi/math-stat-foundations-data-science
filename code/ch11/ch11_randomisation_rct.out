@@ -1,0 +1,8 @@
+(a) pilot with 12 schools, 6 treated
+  observed difference = 3.998 points; 924 possible assignments
+  exact randomisation p = 0.1061; Welch t-test p = 0.1136
+  smallest attainable p-value = 0.0022
+(b) pupil-level trial, n = 160
+  difference in means = 5.043
+  Monte Carlo randomisation p (9999 draws) = 0.0010; Welch p = 0.0009
+  95% Fisher interval for a constant effect: [2.15, 8.00]

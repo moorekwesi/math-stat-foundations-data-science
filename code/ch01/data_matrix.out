@@ -1,0 +1,16 @@
+      log_income  schooling  hh_size  dist_market
+mean       1.925      8.708    5.436        7.950
+std        0.708      5.503    2.157        5.776
+X: (500, 4) float64
+H symmetric: True  H idempotent: True  trace(H) = 499.0
+H X equals X - column means: True
+S matches np.cov: True   matches fast version: True
+R matches np.corrcoef: True   Z^T Z/(n-1) = R: True
+correlation matrix R:
+             log_income  schooling  hh_size  dist_market
+log_income        1.000      0.703    0.121       -0.250
+schooling         0.703      1.000   -0.067        0.080
+hh_size           0.121     -0.067    1.000        0.021
+dist_market      -0.250      0.080    0.021        1.000
+eigenvalues of S (all >= 0): [ 0.1877  4.6409 29.1663 34.8117]
+memory of H: 2.0 MB versus X: 0.016 MB

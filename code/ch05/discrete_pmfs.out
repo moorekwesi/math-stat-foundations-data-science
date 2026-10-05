@@ -1,0 +1,13 @@
+distribution          mean  formula      var  formula
+Bernoulli(0.3)       0.300    0.300    0.210    0.210
+Binomial(20,0.3)     6.000    6.000    4.200    4.200
+Poisson(4)           4.000    4.000    4.000    4.000
+Geometric(0.3)       3.333    3.333    7.778    7.778
+NegBin(3,0.3)        7.000    7.000   23.333   23.333
+note: scipy geom counts trials (support 1,2,...);
+      scipy nbinom counts failures before the r-th success.
+P(5,3,2) under Multinomial(10; .5,.3,.2) = 0.085
+Cov matrix of the counts:
+[[ 2.5 -1.5 -1. ]
+ [-1.5  2.1 -0.6]
+ [-1.  -0.6  1.6]]

@@ -1,0 +1,7 @@
+training n = 309, predictors p = 65
+model       penalty  nonzero  CV RMSE  test RMSE
+OLS             nan       65    65.82      60.14
+RidgeCV     116.895       65    56.63      56.15
+LassoCV       2.906       19    55.11      54.08
+Lasso-AIC     2.961       16    54.98      54.06
+Lasso-BIC     5.243       10    56.79      54.29

@@ -1,0 +1,12 @@
+power iteration converged in 25 steps
+lambda_1 = 1.000000, |lambda_2| = 0.3107 (bound alpha = 0.85)
+max |r_power - r_eig| = 2.45e-14
+rank district PageRank  in-flow share
+   1   D00    0.3109     0.4828
+   2   D05    0.1547     0.0431
+   3   D04    0.1142     0.1006
+   4   D03    0.1042     0.1116
+   5   D02    0.1004     0.0799
+eig : 0.553s, dtype float64, orthogonality err 5.9e-12
+eigh: 0.120s, dtype float64, orthogonality err 3.2e-15
+same spectrum: True

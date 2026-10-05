@@ -1,0 +1,12 @@
+n = 4000, k = 14 (incl. 9 region dummies), cond(X) = 1.04e+04
+               coef  se(class)   se(HC1)  ratio
+const       0.71909    0.04470   0.04378   0.98
+educ        0.10107    0.00248   0.00265   1.07
+exper       0.03201    0.00258   0.00281   1.09
+exper^2    -0.00055    0.00005   0.00005   1.01
+female     -0.11457    0.01666   0.01663   1.00
+agrees with lstsq: True
+
+return to schooling: full OLS 0.101074, FWL 0.101074, within 0.101074
+no region FE        : 0.117833
+one more year of school: +10.64% wage; 95% HC1 CI for beta [0.0959, 0.1063]

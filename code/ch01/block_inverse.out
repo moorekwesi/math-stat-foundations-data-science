@@ -1,0 +1,10 @@
+block formula equals inv(M): True
+max abs difference        : 1.11e-16
+det(M) = 7.052223,  det(A) det(S) = 7.052223
+lower-right block of inv(M) equals inv(S): True
+tr(PQ) = -5.831260, tr(QP) = -5.831260
+tr(M) = 7.587384 = sum of eigenvalues 7.587384
+det(M) = 7.052223 = prod of eigenvalues 7.052223
+det(MN) - det(M)det(N) = 0.0e+00
+det(3M) / det(M) = 243.0  (= 3^5 = 243)
+det(1000 I_200) overflows: inf   slogdet gives log|det| = 1381.551

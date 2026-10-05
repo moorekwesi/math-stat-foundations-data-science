@@ -1,0 +1,16 @@
+Prevalence of poverty  P(poor)              = 0.250
+Coverage               P(sel)               = 0.200
+Sensitivity            P(sel | poor)        = 0.639
+Specificity            P(not sel | nonpoor) = 0.946
+P(poor | sel), direct count                 = 0.798
+P(poor | sel), Bayes' theorem               = 0.798
+Inclusion error  = 1 - P(poor | sel)        = 0.202
+Exclusion error  = 1 - P(sel | poor)        = 0.361
+
+Same PMT accuracy, different coverage of the programme:
+ coverage  inclusion  exclusion
+     0.10      0.077      0.631
+     0.20      0.202      0.361
+     0.25      0.265      0.265
+     0.30      0.326      0.191
+     0.40      0.431      0.089

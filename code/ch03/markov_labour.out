@@ -1,0 +1,9 @@
+eigenvalues of P      : [1.     0.8837 0.5063]
+stationary pi         : [0.4878 0.3902 0.122 ]
+check pi P = pi       : True
+half-life of shocks   : 5.6 quarters
+after 4 quarters      : [0.2238 0.5482 0.228 ]
+after 40 quarters     : [0.4848 0.3926 0.1226]
+TV gap at t=10, 20    : 1.24e-01  3.60e-02
+simulated shares T=200: [0.5075 0.383  0.1095]
+expected spell (quarters): {'Formal': 16.7, 'Informal': 6.7, 'Unemployed': 2.5}

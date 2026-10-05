@@ -1,0 +1,15 @@
+check                     analytical     numerical         extra
+R1 1-cos(1e-8)                 5e-17             0         5e-17
+R2 trace(H)                        4             4          True
+R2 cond(X'X)/cond^2                1             1            --
+R3 PC1 share                    0.37          0.37           0.7
+R4 rate MLE                        2       1.99702        0.1784
+R5 n Hoeffding                   738           738            --
+R5 n Chebyshev                  2000          2000            --
+R6 MSE(2 xbar)             0.0333333     0.0333526            --
+R6 MSE(max)                0.0151515     0.0152032            --
+R7 Newton argmin            0.693147      0.693147     8.016e-14
+R8 x_3 and lambda                 50            50           0.1
+R9 Var(e^U)                 0.242036      0.242242      0.003928
+R9 P(in boot sample)        0.632489      0.632225        0.6321
+R10 ridge df                     1.4           1.4            --

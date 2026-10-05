@@ -1,0 +1,4 @@
+normal: grid max at mu = 1.663, sigma = 1.037
+        closed form mu = 1.658, sigma = 1.040
+logistic: MLE b0 = -0.814, b1 = 1.044, max loglik = -80.93
+95% LR region: loglik >= max - 2.996

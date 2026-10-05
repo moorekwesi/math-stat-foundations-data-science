@@ -1,0 +1,6 @@
+Poisson (quasi-)MLE, n = 400, R = 3000; coverage of 95% intervals for the fee slope
+ alpha    MC sd  model se  sandwich  cov model  cov sand
+   0.0   0.0671    0.0651    0.0648      0.947     0.945
+   0.5   0.0900    0.0653    0.0901      0.845     0.947
+   1.5   0.1269    0.0654    0.1255      0.689     0.946
+mean of fee slope estimates (alpha = 1.5): -0.3484 (true -0.35)

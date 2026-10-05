@@ -1,0 +1,13 @@
+deg  tr(H)  train MSE  test MSE
+  0   1.00     0.5643    0.6536
+  3   4.00     0.1577    0.2244
+  6   7.00     0.0960    0.1462
+  9  10.00     0.0901    0.3498
+ 12  13.00     0.0864    1.4599
+ 15  16.00     0.0547   62.1466
+
+ridge on degree-15 basis (centred, intercept unpenalised):
+lambda = 1e-06   edf = 1 + tr(H) =  15.99   via SVD =  15.99
+lambda = 0.001   edf = 1 + tr(H) =  14.86   via SVD =  14.86
+lambda = 0.1     edf = 1 + tr(H) =  12.08   via SVD =  12.08
+lambda = 10      edf = 1 + tr(H) =   3.61   via SVD =   3.61

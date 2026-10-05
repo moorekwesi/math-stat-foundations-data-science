@@ -1,0 +1,10 @@
+gradient check (20 entries): relative error = 2.1e-09
+epoch   0: train loss 0.3016  test loss 0.3710
+epoch  10: train loss 0.0443  test loss 0.1559
+epoch  20: train loss 0.0331  test loss 0.1447
+epoch  30: train loss 0.0295  test loss 0.1345
+epoch  40: train loss 0.0269  test loss 0.1303
+epoch  50: train loss 0.0254  test loss 0.1281
+epoch  59: train loss 0.0243  test loss 0.1211
+accuracy: train 1.000, test 0.969
+parameters: 2410; one backward pass gives all 2410 partials

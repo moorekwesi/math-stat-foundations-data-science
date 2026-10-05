@@ -1,0 +1,6 @@
+index updates simulated       : 1,232,000
+final index, full precision   :    978.929
+final index, rounded (3 dp)   :    979.487
+final index, truncated (3 dp) :    369.388
+truncation drift              :   -609.541
+predicted drift ~ -0.0005 x m :     -616.0

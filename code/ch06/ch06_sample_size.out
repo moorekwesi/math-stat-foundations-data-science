@@ -1,0 +1,14 @@
+Sample size for margin eps with confidence 1 - delta (worst case p=0.5)
+   eps  delta     CLT  Chebyshev  Hoeffding
+  0.03   0.05    1068       5556       2050
+  0.02   0.05    2401      12500       4612
+  0.01   0.05    9604      50000      18445
+  0.02   0.01    4147      62500       6623
+
+m = 10 regions, eps = 0.03, overall delta = 0.05
+  per region, CLT, delta:        1068
+  per region, CLT, delta/m:      2189
+  per region, Hoeffding, d/m:    3329
+  x design effect 2.0 (cluster sample):   4378
+  n per region =  1068 (  delta): P(some region misses by > eps) = 0.325
+  n per region =  2189 (delta/m): P(some region misses by > eps) = 0.032

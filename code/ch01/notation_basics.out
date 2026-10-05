@@ -1,0 +1,21 @@
+Data matrix X has shape (n, p) = (6, 3)
+[[10.2  3.   4. ]
+ [11.3  4.  10. ]
+ [10.5  7.   7. ]
+ [ 7.9  5.  14. ]
+ [14.2  2.  13. ]
+ [ 8.3  4.   2. ]]
+x_{31} (row 3, column 1) = X[2, 0] = 10.5
+row x_3      = [10.5  7.   7. ]
+column x^(2) = [3. 4. 7. 5. 2. 4.]
+sum_i x_i1                 = 62.4
+column means (xbar_j)      = [10.4    4.167  8.333]
+sum_i sum_j x_ij           = 137.4
+sum_i x_i1 x_i3 (= inner)  = 539.1
+prod_t (1 + pi_t)          = 1.127149
+exp(sum_t log(1 + pi_t))   = 1.127149
+geometric-mean monthly rate= 0.020149
+empty sum = 0.0    empty product = 1.0
+prod of 2000 probabilities = 0.0
+sum of their logs          = -2575.451
+log10 of the product       = -1118.5

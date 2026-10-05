@@ -1,0 +1,22 @@
+X (5 x 3) =
+ [[ 9.4 48.2  2.7]
+ [ 8.6 53.8  2.4]
+ [ 9.5 46.8  4.1]
+ [ 7.6 33.2  2.8]
+ [ 7.8 55.2  3.5]]
+column means after centring: [0. 0. 0.]
+weighted column means w^T X : [ 8.59 47.3   3.24]
+row scaling equals diag(w) X: True
+outer product a[:,None]*b[None,:] =
+ [[ 1  2  3  4]
+ [ 2  4  6  8]
+ [ 3  6  9 12]]
+pairwise Euclidean distances (rounded):
+ [[ 0.   5.7  2.  15.1  7.2]
+ [ 5.7  0.   7.3 20.6  2. ]
+ [ 2.   7.3  0.  13.8  8.6]
+ [15.1 20.6 13.8  0.  22. ]
+ [ 7.2  2.   8.6 22.   0. ]]
+shape of y - yhat when yhat is (5,1): (5, 5)  <- silent bug!
+correct: y - yhat.ravel() has shape (5,)
+ValueError: operands could not be broadcast together with shapes (5,3) (5,)

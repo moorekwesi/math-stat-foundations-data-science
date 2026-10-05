@@ -1,0 +1,13 @@
+Take-up model (simulated), n = 2000
+             true    logit  sklearn   probit 1.6*probit
+    const    0.50   0.5774   0.5774   0.3489     0.5583
+   income   -0.60  -0.6016  -0.6016  -0.3647    -0.5835
+ distance   -0.40  -0.4478  -0.4478  -0.2721    -0.4353
+   female    0.50   0.4792   0.4792   0.2957     0.4731
+log-lik: logit = -1209.26, probit = -1209.18
+AME of +1 km distance: logit -0.0935, probit -0.0937
+
+Poisson demand with log(population) offset, m = 120 districts
+    const: true  -1.00, MLE  -0.9979, rate ratio 0.3687
+    urban: true   0.30, MLE   0.2982, rate ratio 1.3474
+      fee: true  -0.35, MLE  -0.3517, rate ratio 0.7035

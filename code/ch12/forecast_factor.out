@@ -1,0 +1,8 @@
+179 one-step forecasts, origins t = 120...298, p = 101 predictors
+last tuned penalties: ridge 280.72, lasso 0.0418
+model        RMSE  rel. to AR
+AR(1)       1.239       1.000
+OLS-all     1.212       0.978
+Ridge       0.842       0.679
+Lasso       0.825       0.666
+PCR(3)      0.840       0.678

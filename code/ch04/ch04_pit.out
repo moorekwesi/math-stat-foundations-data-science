@@ -1,0 +1,5 @@
+forecast model            KS p-value  P(PIT<0.05)  P(PIT>0.95)
+correct: t(5)                  0.482        0.045        0.051
+too narrow: N(0, 0.8^2)     6.62e-28        0.122        0.129
+too wide: N(0, 2^2)         8.19e-81        0.008        0.012
+A calibrated forecast puts 5% of PIT values in each tail.

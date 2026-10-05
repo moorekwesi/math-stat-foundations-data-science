@@ -1,0 +1,7 @@
+P(Z <= 1.96) = 0.9750,  97.5% quantile = 1.9600
+97.5% quantile of t(5) = 2.5706
+gamma MLE: shape = 1.970, scale = 1.478  (true 2, 1.5)
+BFGS minimiser: [1. 1.]  iterations: 32
+SLSQP solution: [6.6667 1.6667]  (exact 6.6667, 1.6667)
+quad: 1.6487212707   exact: 1.6487212707
+sklearn coefficients: [ 0.986 -1.991  0.486]  R^2 = 0.952

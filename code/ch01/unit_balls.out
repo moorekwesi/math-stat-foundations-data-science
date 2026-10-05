@@ -1,0 +1,4 @@
+area enclosed by the l1   unit ball = 2.0000
+area enclosed by the l2   unit ball = 3.1416
+area enclosed by the linf unit ball = 4.0000
+exact areas: l1 = 2, l2 = pi = 3.1416, l-inf = 4

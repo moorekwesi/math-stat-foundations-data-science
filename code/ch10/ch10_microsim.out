@@ -1,0 +1,5 @@
+baseline headcount P0 = 36.00%, poverty gap P1 = 10.40%
+budget per poor person (if perfectly targeted): 73.0
+reduction in headcount  : mean 2.207 pp (MC s.e. 0.010), 90% band [1.714, 2.684]
+reduction in poverty gap: mean 1.907 pp (MC s.e. 0.008), 90% band [1.512, 2.339]
+benchmark (no PMT error, full take-up, mpc 1): P0 36.00%, P1 7.48%

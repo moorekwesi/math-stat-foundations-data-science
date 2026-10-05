@@ -1,0 +1,10 @@
+true ATE = E[Y1 - Y0] = 5.990
+
+Randomised assignment
+  E[Y|D=1] - E[Y|D=0] = 5.847
+  OLS slope on D      = 5.847
+
+Self-selection on ability
+  naive difference    = 16.423
+  = ATT 7.445 + selection bias 8.977
+  (ATT exceeds ATE because gains rise with ability)

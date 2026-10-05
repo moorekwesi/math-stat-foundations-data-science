@@ -1,0 +1,8 @@
+image 80 x 80, numerical rank 66
+ k   storage   ratio  rel.Frob.err  energy kept
+  1      161   0.025     0.5509     0.6965
+  5      805   0.126     0.4461     0.8010
+ 10     1610   0.252     0.3545     0.8743
+ 20     3220   0.503     0.2154     0.9536
+ 30     4830   0.755     0.1255     0.9843
+rank needed for 90% of squared Frobenius norm: 13

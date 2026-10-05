@@ -1,0 +1,6 @@
+max |sample cov - Sigma| = 0.033
+E[X1 | X2=12, X3=4]: formula 9.9610, simulation 9.9350 (389 draws)
+Var[X1 | ...]      : formula 0.4717, simulation 0.4698
+population regression coefficients Sigma22^-1 Sigma21 = [ 0.1287 -0.046 ]
+P(D^2 > chi2_3(0.95)) = 0.0499
+household (11, 6, 5): Euclidean dist 2.561, Mahalanobis 2.787

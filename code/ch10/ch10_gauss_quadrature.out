@@ -1,0 +1,20 @@
+Gauss-Legendre n=3: nodes [-0.774597  0.        0.774597]
+                   weights [0.555556 0.888889 0.555556]
+  x^0: error  4.4e-16 (exact)
+  x^1: error  1.8e-17 (exact)
+  x^2: error  3.3e-16 (exact)
+  x^3: error  4.8e-18 (exact)
+  x^4: error  1.1e-16 (exact)
+  x^5: error  2.3e-18 (exact)
+  x^6: error  4.6e-02 
+  x^7: error  2.7e-18 (exact)
+
+Gauss-Hermite relative errors
+ nodes   E[u(Y)] CRRA   mixed-probit P
+     1       2.74e-01       2.43e-02
+     2       2.88e-02       3.27e-03
+     3       1.84e-03       4.36e-04
+     5       3.00e-06       7.65e-06
+    10       1.45e-14       3.06e-10
+    20       0.00e+00       2.22e-16
+exact: E[u(Y)] = -1.255778e-03,  P(y=1) = 0.603244

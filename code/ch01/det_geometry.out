@@ -1,0 +1,3 @@
+A = [[2, 1], [0.5, 1.5]]   det =  2.500  image area = 2.500
+B = [[1, 2], [0.5, 1]]     det =  0.000  image area = 0.000
+B is singular: its columns are parallel, the square collapses to a line

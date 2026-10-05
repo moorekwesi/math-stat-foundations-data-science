@@ -1,0 +1,16 @@
+Rosenbrock d=10
+  method         nit   nfev  njev           f*      ms
+  Nelder-Mead   2175   3000     0 1.230938e+00     133
+  CG             285    464   464 7.392342e-11      54
+  BFGS            61     84    84 6.987591e-16      16
+  L-BFGS-B        58     77    77 1.291175e-10      11
+  Newton-CG       52     62    62 7.862469e-12      20
+  trust-exact     26     27    25 1.562729e-18      16
+logit n=10000, p=20
+  method         nit   nfev  njev           f*      ms
+  Nelder-Mead   2438   3000     0 6.250046e-01    2146
+  CG               6     13    13 6.129771e-01      35
+  BFGS            11     12    12 6.129771e-01      35
+  L-BFGS-B         5      6     6 6.129771e-01      18
+  Newton-CG        5      5     5 6.129771e-01      31
+  trust-exact      3      4     4 6.129771e-01      33

@@ -1,0 +1,10 @@
+Spread of estimators of the centre (true centre = 0)
+sqrt(n) * IQR of the sampling distribution, R = 20000
+  model     n      mean    median   ratio
+ normal    25     1.333     1.664    0.80
+ normal   400     1.351     1.689    0.80
+   t(3)    25     2.131     1.834    1.16
+   t(3)   400     2.304     1.841    1.25
+ Cauchy    25     9.891     2.133    4.64
+ Cauchy   400    40.604     2.129   19.08
+Theory (normal): ARE(median, mean) = 2/pi = 0.637

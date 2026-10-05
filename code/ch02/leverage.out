@@ -1,0 +1,10 @@
+sum of leverages = 2.0000  (= k = 2)
+min h = 0.0050 (>= 1/n = 0.0050),  max h = 0.3191
+average k/n = 0.0100;  rule of thumb flags h > 2k/n = 0.020
+flagged observations: [  0  41  68  76 100 109 111]
+
+slope with obs 0    = 0.2105
+slope without obs 0 = 0.2967
+LOO residual: formula -5.4398, refit -5.4398
+
+leverage of the lone obs in its own dummy: h = 1.000000

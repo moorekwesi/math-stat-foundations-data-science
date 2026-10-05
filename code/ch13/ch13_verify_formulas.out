@@ -1,0 +1,10 @@
+Part 1: Var(s^2), n = 20, 200000 replications
+population         formula  normal-only  simulated  MC s.e.
+Normal(0,1)         0.1053       0.1053     0.1055   0.0004
+Exponential(1)      0.4053       0.1053     0.4038   0.0030
+
+Part 2: gradient of logistic log-likelihood at b0
+analytic : [ -80.367936   27.506917 -104.357885]
+central  : [ -80.367936   27.506917 -104.357885]
+relative error = 1.29e-11
+best h: forward 1.8e-08, central 1.0e-05

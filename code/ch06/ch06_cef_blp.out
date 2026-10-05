@@ -1,0 +1,7 @@
+linear projection: a = 0.7452, b = 0.1156
+MSE of true CEF          : 0.21903
+MSE of binned CEF        : 0.22011
+MSE of linear projection : 0.23225
+MSE of constant E[Y]     : 0.51711
+CEF error:  corr(e, X) = -0.0044  corr(e, X^2) = -0.0039  corr(e, sin X) =  0.0040
+projection: corr(u, X) = -0.0000  corr(u, X^2) =  0.0596

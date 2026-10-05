@@ -1,0 +1,5 @@
+estimator          intercept    slope  iters      risk
+truth                 1.0000   0.0800
+OLS (squared)         1.1459   0.0788     47   0.24193
+LAD (absolute)        1.0361   0.0785     75   0.36251
+Huber (c=1.345)       1.0257   0.0791     54   1.01320

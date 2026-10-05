@@ -1,0 +1,8 @@
+MLE: mu = 2.9797, sigma = 0.5087; start = (1.0, 0.4)
+method               step   iterations to 1e-6
+ordinary gradient    0.01                  582
+ordinary gradient    0.05                  210
+ordinary gradient    0.20                  441
+natural gradient     0.20                   71
+natural gradient     0.50                   26
+natural gradient     1.00                    8

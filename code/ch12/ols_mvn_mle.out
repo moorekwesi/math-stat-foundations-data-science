@@ -1,0 +1,9 @@
+OLS beta_hat         : [ 1.4994  0.0473  0.0391 -0.1837]
+||gradient|| at b_hat: 3.96e-13
+min eigenvalue of H  : 891.4 (> 0)
+
+mu_hat               : [2.0267 1.5244 0.5029]
+Sigma_hat equals np.cov(bias=True): True
+max |score| at MLE (analytic): 4.55e-12
+max |score| at MLE (numeric) : 7.28e-06
+loglik at MLE vs at true    : -5258.86 >= -5263.07

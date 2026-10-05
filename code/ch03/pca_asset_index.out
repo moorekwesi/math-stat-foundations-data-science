@@ -1,0 +1,17 @@
+eigenvalues of R (first 4): [3.685 1.052 0.957 0.898]  PC1 share: 0.307
+asset           own%   PC1 loading  score weight (v/sd)
+television       40.8     0.361       0.734
+refrigerator     24.2     0.349       0.816
+piped water      31.9     0.340       0.729
+electricity      49.7     0.338       0.675
+flush toilet     23.2     0.335       0.793
+finished floor   49.0     0.333       0.665
+mobile phone     76.7     0.253       0.598
+car               8.2     0.234       0.852
+motorbike        29.1     0.196       0.432
+radio            73.3     0.136       0.307
+bicycle          50.0    -0.062      -0.125
+earth floor      49.6    -0.341      -0.681
+PCA index   : Spearman with latent wealth 0.882; poorest-40% correctly targeted 0.822
+asset count : Spearman with latent wealth 0.863; poorest-40% correctly targeted 0.791
+rural share by index quintile: [0.631 0.543 0.486 0.463 0.407]

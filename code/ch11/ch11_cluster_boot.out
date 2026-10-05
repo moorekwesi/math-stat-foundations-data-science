@@ -1,0 +1,9 @@
+G = 40 EAs x m = 15 households; estimated effect = 0.1402
+estimated ICC = 0.163; Moulton factor 1+(m-1)ICC = 3.28
+standard error                   value
+naive iid formula               0.0449
+household bootstrap (wrong)     0.0446
+cluster-robust CR1              0.0806
+cluster (EA) bootstrap          0.0827
+Monte Carlo truth               0.0873
+cluster draws dropped (no treated EA): 0

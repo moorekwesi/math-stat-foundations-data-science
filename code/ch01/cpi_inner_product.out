@@ -1,0 +1,18 @@
+sum of weights = 1.000000
+Laspeyres  100 <w, r>             = 120.173
+Laspeyres  100 <p1,q0>/<p0,q0>    = 120.173
+Paasche    100 <p1,q1>/<p0,q1>    = 119.944
+Fisher     sqrt(L * P)            = 120.058
+
+item                weight  relative  contrib(pp)
+housing/utilities    0.203     1.300        6.078
+food                 0.162     1.240        3.890
+education            0.162     1.200        3.241
+transport            0.086     1.350        3.025
+health               0.081     1.150        1.216
+furnishings          0.086     1.120        1.037
+clothing             0.113     1.080        0.908
+recreation           0.038     1.090        0.340
+communication        0.049     1.050        0.243
+alcohol/tobacco      0.019     1.100        0.194
+total inflation                            20.173

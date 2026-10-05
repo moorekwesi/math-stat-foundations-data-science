@@ -1,0 +1,9 @@
+m = 20 outcomes (5 truly affected), 4000 simulated trials
+procedure              FWER    FDR   power  avg rej
+no correction         0.533  0.137   0.807     4.79
+Bonferroni            0.038  0.015   0.413     2.11
+Holm                  0.043  0.016   0.423     2.16
+Benjamini-Hochberg    0.139  0.036   0.562     2.97
+trial 1, five smallest p-values: 0.0042 0.0063 0.0065 0.0207 0.0485
+Bonferroni cut-off q/m = 0.0025
+BH cut-offs k*q/m, k = 1..5:      0.0025 0.0050 0.0075 0.0100 0.0125

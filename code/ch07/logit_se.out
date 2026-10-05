@@ -1,0 +1,5 @@
+Logit take-up model, n = 500; Monte Carlo R = 2000
+             b_hat  se Hess  se BFGS    MC sd   cover
+    const   0.5362   0.1879   0.1868   0.1904   0.959
+   income  -0.4590   0.1019   0.1001   0.1071   0.946
+ distance  -0.4236   0.0694   0.0689   0.0711   0.948

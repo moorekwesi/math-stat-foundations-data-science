@@ -1,0 +1,6 @@
+analytic gradient : [ 0.15215757 -0.03638254  0.12453259 -0.26523193]
+central FD, h=1e-5: [ 0.15215757 -0.03638254  0.12453259 -0.26523193]
+relative error    : 2.75e-11  (pass if < 1e-6)
+buggy gradient    : relative error 9.98e-01  -> FAIL
+best h forward : 2.5e-08, error 1.9e-09
+best h central : 6.5e-06, error 8.8e-12

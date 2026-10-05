@@ -1,0 +1,17 @@
+ d   tensor nodes   tensor error   MC error (same n)
+ 1             4       7.89e-06       4.74e-01
+ 2            16       1.58e-05       4.59e-02
+ 3            64       2.37e-05       1.29e-01
+ 4           256       3.15e-05       5.97e-02
+ 5          1024       3.94e-05       6.76e-02
+ 6          4096       4.73e-05       1.01e-02
+ 7         16384       5.52e-05       1.74e-04
+ 8         65536       6.31e-05       1.34e-02
+
+10-point tensor rule: nodes and time at 1e9 evaluations/second
+ d =  1: n = 1e1   time =  1.0e-08 s =  3.2e-16 years
+ d =  2: n = 1e2   time =  1.0e-07 s =  3.2e-15 years
+ d =  5: n = 1e5   time =  1.0e-04 s =  3.2e-12 years
+ d = 10: n = 1e10  time =  1.0e+01 s =  3.2e-07 years
+ d = 20: n = 1e20  time =  1.0e+11 s =  3.2e+03 years
+ d = 50: n = 1e50  time =  1.0e+41 s =  3.2e+33 years

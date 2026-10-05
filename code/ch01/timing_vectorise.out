@@ -1,0 +1,8 @@
+sum of squares, n = 1e6: loop 0.217s, vectorised 0.00084s, speed-up ~257x
+     n  matmul (s)  GFLOP/s  solve (s)
+   200      0.0006     28.7     0.0004
+   400      0.0044     29.3     0.0026
+   800      0.0352     29.1     0.0183
+  1200      0.1314     26.3     0.0638
+  1600      0.3954     20.7     0.1722
+fitted log-log slope for matmul time: 3.22 (theory: 3)

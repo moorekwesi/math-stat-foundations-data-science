@@ -1,0 +1,12 @@
+summing 0.1 one million times (target 100000.0)
+  naive loop         100000.0000013329   error  1.333e-06
+  Kahan              100000.0000000000   error  0.000e+00
+  np.sum (pairwise)  99999.9999999998   error -2.037e-10
+  math.fsum          100000.0000000000   error  0.000e+00
+same data in float32:
+  naive loop         100958.3438
+  Kahan              100000.0000
+  np.sum (pairwise)  100000.0859
+1e16 then 10,000 ones, left to right: 0.0
+small ones first                    : 10000.0
+math.fsum (correctly rounded)       : 10000.0

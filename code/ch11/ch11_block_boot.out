@@ -1,0 +1,15 @@
+T = 240, phi = 0.6: sample mean = -0.027
+true sd of mean (MC) = 0.1587; asymptotic = 0.1614
+iid bootstrap se = 0.0841  (ignores dependence)
+block length   MBB se
+           1   0.0798
+           2   0.1000
+           4   0.1167
+           6   0.1214
+           8   0.1239
+          12   0.1300
+          16   0.1304
+          24   0.1233
+          32   0.1163
+          48   0.0877
+rule of thumb ell ~ T^(1/3) = 6.2

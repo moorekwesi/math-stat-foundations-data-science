@@ -1,0 +1,12 @@
+Sample moments of (log income, log consumption)
+  means       7.013  6.810   (true 7.000  6.800)
+  covariance  0.2751           (true 0.2800)
+  correlation 0.8011           (true 0.8000)
+  corr. of levels exp(Y1), exp(Y2): 0.7720
+
+E[Y2 | Y1 = y] = 6.80 + 0.5714 (y - 7.00),  sd(Y2 | Y1) = 0.3000
+   income band  mean Y2 (sim)   theory  sd (sim)
+[6.0, 6.1)          6.243    6.258     0.305
+[6.5, 6.6)          6.563    6.545     0.332
+[7.0, 7.1)          6.844    6.830     0.304
+[7.5, 7.6)          7.098    7.112     0.299

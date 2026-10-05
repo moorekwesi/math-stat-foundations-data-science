@@ -1,0 +1,10 @@
+Marginal checks (KS p-values against Uniform(0,1)):
+  U1: p = 0.082
+  U2: p = 0.283
+
+scale              Pearson  Spearman  Kendall
+normal scores Z      0.698     0.686    0.495
+copula scale U       0.685     0.686    0.495
+income, loss         0.648     0.686    0.495
+
+Theory: Spearman = (6/pi) asin(r/2) = 0.683, Kendall = (2/pi) asin(r) = 0.494

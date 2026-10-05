@@ -1,0 +1,15 @@
+Cobb-Douglas, p = [2. 5. 4.]  m = 120.0
+  closed form  x = [18. 12.  6.]  lambda = 0.008333
+  SLSQP        x = [18.000012 11.999992  6.000003]
+  root(FOC)    x = [18. 12.  6.]  lambda = 0.008333
+  budget shares p_i x_i / m = [0.3 0.5 0.2]
+
+CES demand (closed form vs SLSQP):
+  sigma    x1(cf)   x1(num)   x2(cf)   x3(cf)   max|diff|
+   0.50   19.2359   19.2359    9.4236    8.6025   7.5e-06
+   0.80   25.5310   25.5310    8.1515    7.0452   1.9e-05
+   2.00   49.0196   49.0196    2.8235    1.9608   2.2e-05
+   5.00   59.8426   59.8426    0.0477    0.0191   2.3e-06
+
+CES sigma=2: own-price elasticity of good 1 = -1.1830
+theory -sigma + (sigma-1) s1                = -1.1830

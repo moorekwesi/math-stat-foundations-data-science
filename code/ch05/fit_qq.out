@@ -1,0 +1,6 @@
+model               params (shape, loc, scale)    loglik      AIC
+exponential                       0.000, 7.006   -2357.4   4716.8
+gamma                      1.803, 0.000, 3.885   -2287.5   4579.1
+Weibull                    1.410, 0.000, 7.712   -2290.0   4584.0
+log-normal                 0.866, 0.000, 5.179   -2335.4   4674.8
+KS test vs fitted exponential: D = 0.127, p = 1.2e-11 (nominal: params were estimated)

@@ -1,0 +1,11 @@
+parameter          closed form    numerical       diff
+Bernoulli p           0.340000     0.340000   3.30e-09
+Poisson lambda        2.376000     2.376000   2.47e-08
+Normal mu             5.064261     5.064261   1.34e-07
+Normal sigma          1.145504     1.145504  -2.79e-08
+Exponential rate      0.524303     0.524304  -2.35e-08
+
+Invariance of the MLE
+  P(no visits)  : exp(-lambda_hat) = 0.0929   (sample share of zeros = 0.1000)
+  median wait   : log(2)/rate_hat  = 1.3220   (sample median = 1.3404)
+  odds of uptake: p/(1-p)          = 0.5152

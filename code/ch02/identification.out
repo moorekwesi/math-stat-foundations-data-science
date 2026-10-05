@@ -1,0 +1,10 @@
+columns = 18, rank = 17
+||X c|| = 0.0e+00
+tau-hat from solution 1 =  1.1466
+tau-hat from solution 2 =  3.1466
+max |fitted1 - fitted2| = 4.4e-16
+tau alone      distance from row(X) = 0.408  -> NOT identified
+educ slope     distance from row(X) = 0.000  -> identified
+tau + alpha_1  distance from row(X) = 0.000  -> identified
+
+Two rounds: columns = 19, rank = 19, tau-hat (DiD) = 0.2872

@@ -1,0 +1,5 @@
+Dual SLSQP:  w = [1.3729 1.0222]  b = 0.0451
+sklearn SVC: w = [1.3729 1.0222]  b = 0.0451
+support vectors: dual 5 (on margin 3, a = C 2), sklearn 5
+primal value 2.33409   dual value 2.33409   gap 4.2e-07
+complementary slackness: max (C - a_i) xi_i = 0.0e+00

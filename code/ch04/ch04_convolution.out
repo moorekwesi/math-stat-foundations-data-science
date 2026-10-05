@@ -1,0 +1,10 @@
+Sum of k iid exponentials (mean 2) is Gamma(k, scale 2)
+ k  max|conv - gamma|  P(S>10) conv  P(S>10) sim
+ 1             0.0000        0.0067       0.0069
+ 2             0.0025        0.0404       0.0406
+ 3             0.0014        0.1247       0.1250
+ 4             0.0014        0.2657       0.2665
+ 5             0.0014        0.4425       0.4394
+
+PMF of the sum of two dice (values 2..12):
+  1 2 3 4 5 6 5 4 3 2 1   (times 1/36)

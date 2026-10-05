@@ -1,0 +1,10 @@
+Household size (discrete)
+  E[X] = 4.3300  E[X^2] = 22.6700  Var(X) = 3.9211
+  E[1/X] = 0.3167  versus 1/E[X] = 0.2309
+
+Lognormal income, mu = 7, s = 0.8 (simulated units)
+  exact  E[Y] = exp(mu + s^2/2) =   1510.204
+  quad   int y f_Y(y) dy        =   1510.204
+  LOTUS  int e^z f_Z(z) dz      =   1510.204
+  Monte Carlo (n = 1e6)         =   1508.809  (s.e. 1.428)
+  E[log Y] = 6.9989  log E[Y] = 7.3200

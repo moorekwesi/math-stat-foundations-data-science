@@ -1,0 +1,14 @@
+Property                      P            M
+symmetric  max|A - A^T|    3.1e-17    3.1e-17
+idempotent max|A^2 - A|    5.6e-17    4.4e-16
+trace                       4.0000    56.0000
+rank                             4         56
+eigenvalues of P: 4 ones, 56 zeros
+max|PM| = 3.5e-17,  max|MX| = 4.4e-16
+
+yhat' e = -1.86e-14   (orthogonal pieces)
+||y||^2 = 389.0032   ||yhat||^2 + ||e||^2 = 389.0032
+TSS = 149.0310  ESS + RSS = 149.0310  R^2 = 0.5687
+
+rank-one projector: trace = 1.0000, idempotent err = 2.8e-17
+oblique Q: Q^2 = Q? True, symmetric? False

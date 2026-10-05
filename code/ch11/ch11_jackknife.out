@@ -1,0 +1,8 @@
+n = 60; bootstrap with B = 4000
+statistic             estimate  jack bias  boot bias   jack se   boot se
+plug-in variance        2.3860    -0.0404    -0.0316    1.6130    1.5459
+Gini                    0.4368    -0.0156    -0.0137    0.0667    0.0547
+ratio food/income       0.4088     0.0022     0.0020    0.0272    0.0258
+median                  0.8796    -0.0000     0.0031    0.0507    0.0851
+check: jackknife-corrected plug-in variance = 2.426447, s^2 = 2.426447
+median: true sd = 0.1569; mean jackknife se = 0.1445, CV across samples = 0.98

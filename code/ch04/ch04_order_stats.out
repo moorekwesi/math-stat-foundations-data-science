@@ -1,0 +1,14 @@
+Months until the FIRST default among n loans, each Exp(rate 0.1)
+   n  E[min] sim  1/(n lam)
+   1       9.999     10.000
+   5       2.000      2.000
+  20       0.498      0.500
+ 100       0.100      0.100
+
+Maximum of n iid Uniform(0,1): P(max <= 0.9) = 0.9^n
+   n      sim    exact  E[max] sim  n/(n+1)
+   2   0.8121   0.8100      0.6651   0.6667
+  10   0.3487   0.3487      0.9091   0.9091
+  50   0.0054   0.0052      0.9803   0.9804
+
+Max of 30 iid N(0,1): mean 2.042, P(max > 2) = 0.498  (exact 1 - Phi(2)^30 = 0.499)

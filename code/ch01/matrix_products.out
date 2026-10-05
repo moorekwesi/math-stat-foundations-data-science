@@ -1,0 +1,14 @@
+C = AB =
+ [[-2.  2. -4.  2.]
+ [-3.  3. -6.  3.]
+ [ 1.  0.  6. -1.]]
+all four views agree: True
+rank of C (a sum of 2 outer products) = 2
+(MN)^T = N^T M^T : True
+MN = NM ?        : False
+(MN)^-1 = N^-1 M^-1: True
+Q^T Q = I        : True   ||Qv|| - ||v|| = -8.9e-16
+det(Q)           = -1.0
+P symmetric      : True   P^2 = P : True
+trace(P) = 3.0  = rank(X) = 3
+eigenvalues of P : [0. 0. 0. 1. 1. 1.]

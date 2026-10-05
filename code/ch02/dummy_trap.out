@@ -1,0 +1,13 @@
+const + educ                       k =  2  rank =  2  -> full column rank
+const + educ + all 16 dummies      k = 18  rank = 17  -> RANK DEFICIENT by 1
+const + educ + 15 dummies          k = 17  rank = 17  -> full column rank
+no const + educ + 16 dummies       k = 17  rank = 17  -> full column rank
+
+||X_trap c|| = 0.0e+00  (exact dependence)
+rank + nullity = 17 + 1 = 18
+
+Near-collinear regressor  x3 = x1 + x2 + delta * noise
+delta =   1e-02  s_min/s_max =  3.46e-03  rank(default) = 4  rank(tol=1e-6) = 4
+delta =   1e-08  s_min/s_max =  3.32e-09  rank(default) = 4  rank(tol=1e-6) = 3
+delta =   1e-13  s_min/s_max =  3.46e-14  rank(default) = 3  rank(tol=1e-6) = 3
+delta =   1e-16  s_min/s_max =  2.58e-16  rank(default) = 3  rank(tol=1e-6) = 3

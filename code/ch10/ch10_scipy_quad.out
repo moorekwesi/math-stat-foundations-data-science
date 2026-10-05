@@ -1,0 +1,7 @@
+shortfall, quad on [0,inf): 139.378424  est.err 3.9e-07  evals 645
+shortfall, quad on [0,c]  : 139.378424  closed form 139.378424
+P(X1<0.5, X2<-0.2), rho=0.6:
+   dblquad 0.37422109 (est.err 5.4e-09), mvn.cdf 0.37422109
+oscillatory, limit=20 : -2.9060023914e-02  warnings: 1
+oscillatory, limit=500:  2.5210905434e-05
+exact                 :  2.5210905434e-05

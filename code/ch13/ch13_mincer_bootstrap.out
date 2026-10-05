@@ -1,0 +1,7 @@
+beta_educ = 0.10107, HC1 se = 0.00265
+method                       se  95% lower  95% upper
+normal, HC1             0.00265    0.09589    0.10626
+pairs, percentile       0.00268    0.09565    0.10631
+wild, percentile        0.00259    0.09606    0.10602
+pairs, basic                       0.09584    0.10649
+implied % wage gain per year (pairs): [10.04%, 11.22%]

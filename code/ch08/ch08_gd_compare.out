@@ -1,0 +1,7 @@
+method          gap after 3000  iters to 1e-8
+GD 1/L                4.98e-03         > 3000
+GD + Armijo           2.85e-07         > 3000
+heavy ball            1.00e-16            360
+Nesterov              1.00e-16            444
+condition number of X'X/n (raw): 1,755
+standardised: kappa = 1.11, GD 1/L reaches 1e-8 in 4 iterations

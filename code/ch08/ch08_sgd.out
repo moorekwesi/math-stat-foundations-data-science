@@ -1,0 +1,8 @@
+n = 200,000, batch 64, 3 epochs = 9,375 updates
+schedule           excess loss  ||b - b*||
+constant 0.5          1.99e-03      0.1727
+constant 0.05         4.61e-04      0.0815
+1/sqrt(k) decay       4.74e-04      0.0827
+step decay            1.74e-05      0.0146
+constant 0.5, batch   8: excess loss 1.87e-02
+constant 0.5, batch 512: excess loss 5.44e-04

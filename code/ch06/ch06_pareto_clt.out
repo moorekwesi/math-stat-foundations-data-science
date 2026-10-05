@@ -1,0 +1,7 @@
+Coverage of xbar +- 1.96 s/sqrt(n) for Pareto(alpha) incomes, x_m = 1
+ alpha   mean     n=50    n=200   n=1000   n=5000
+   1.5  3.000    0.680    0.726    0.767    0.788
+   2.5  1.667    0.850    0.897    0.936    0.933
+   4.0  1.333    0.887    0.940    0.943    0.953
+   8.0  1.143    0.918    0.947    0.959    0.952
+(alpha = 1.5: infinite variance, the classical CLT does not apply)

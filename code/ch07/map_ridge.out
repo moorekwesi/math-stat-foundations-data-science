@@ -1,0 +1,8 @@
+Diabetes data: n = 442, p = 10; sigma = 54 treated as known
+ prior sd tau    lambda  ||b_MAP - b_ridge||  ||b_MAP||
+        100.0       0.3             1.31e-12      62.71
+         10.0      29.2             1.74e-13      39.24
+          3.0     324.0             3.77e-14      26.91
+          1.0    2916.0             7.85e-15       9.33
+ (flat prior)       0.0                  OLS      65.54
+Posterior for the bmi coefficient (tau = 3): mean 16.29, sd 2.11

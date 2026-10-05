@@ -1,0 +1,18 @@
+PC1 explains 33.0% of standardised asset variance
+  weights: radio=0.22 tv=0.36 fridge=0.35 phone=0.24 motorbike=0.26
+  weights: floor=0.33 electric=0.35 water=0.33 toilet=0.35 gas=0.32
+IRLS iterations:
+  iter 0: loglik(before step) = -1958.8339, |step| = 1.40e+00
+  iter 1: loglik(before step) = -1236.6313, |step| = 7.65e-01
+  iter 2: loglik(before step) = -1128.3275, |step| = 6.73e-01
+  iter 3: loglik(before step) = -1104.9411, |step| = 3.68e-01
+  iter 4: loglik(before step) = -1102.6694, |step| = 6.94e-02
+  iter 5: loglik(before step) = -1102.6273, |step| = 1.85e-03
+  iter 6: loglik(before step) = -1102.6273, |step| = 1.23e-06
+  iter 7: loglik(before step) = -1102.6273, |step| = 5.56e-13
+max |beta_IRLS - beta_sklearn| = 5.1e-05
+  tv      coef  -0.879  se 0.149  odds ratio 0.42
+  fridge  coef  -1.057  se 0.262  odds ratio 0.35
+  hhsize  coef   0.258  se 0.025  odds ratio 1.29
+  rural   coef   0.480  se 0.113  odds ratio 1.62
+test AUC: PCA index 0.857, logit PMT 0.877

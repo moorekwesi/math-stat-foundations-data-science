@@ -1,0 +1,10 @@
+integral of exp on [0,1], n = 1000, 2000 replications
+   plain      sd 1.57e-02
+   stratified sd 1.62e-05   (variance ratio 937317)
+
+poverty headcount, true = 0.2026; n = 600; 2000 surveys
+   stratum headcounts [0.043, 0.279, 0.528]
+   Neyman allocation  [182, 269, 149]  (proportional [300, 200, 100])
+   SRS           mean 0.2025  sd 0.0162  design effect 1.000
+   proportional  mean 0.2025  sd 0.0148  design effect 0.833
+   Neyman        mean 0.2028  sd 0.0137  design effect 0.719

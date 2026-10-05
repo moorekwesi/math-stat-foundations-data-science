@@ -1,0 +1,9 @@
+naive softmax  : [nan nan nan nan]
+stable softmax : [0.006377 0.946499 0.       0.047123]
+sum of probs   : 1.0000000000000002
+log-sum-exp    : ours = 805.0549855249   scipy = 805.0549855249
+log P(mode 2)  = v_2 - lse(v) = -0.054986
+naive log-sum-exp of very negative utilities: -inf   stable: -789.999954
+binary logit log-likelihood, naive  : nan
+binary logit log-likelihood, stable : -38.233852
+log1p(1e-20) = 1e-20   log(1 + 1e-20) = 0.0

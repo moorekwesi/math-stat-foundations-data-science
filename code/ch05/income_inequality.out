@@ -1,0 +1,8 @@
+true   mu = 9.3927, sigma = 0.8000
+fitted mu = 9.3885, sigma = 0.7901
+mean   =  16347.2  (theory  16525.5)
+median =  11913.7  (theory  12000.0)
+Gini: sample = 0.4249, log-normal formula = 0.4284
+poverty headcount at z = 6000: sample = 0.1924, model = 0.1916
+poverty gap index (FGT1) = 0.0599
+bottom 40% share = 0.1478, top 10% share = 0.3122

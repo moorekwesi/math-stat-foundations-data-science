@@ -1,0 +1,9 @@
+Complete separation: y = 1 exactly when x > 0.1
+ maxiter        b0        b1  neg loglik  success
+      10     -1.54     20.50    1.07e+00    False
+      50    -75.64    996.36    3.60e-12    False
+     200    -79.60   1048.51    9.03e-13     True
+    1000    -79.60   1048.51    9.03e-13     True
+implied boundary -b0/b1 at maxiter = 1000: 0.0759
+sklearn L2-penalised, C =   1.0: b0 =  -0.50, b1 =   2.71
+sklearn L2-penalised, C = 100.0: b0 =  -1.10, b1 =  13.84

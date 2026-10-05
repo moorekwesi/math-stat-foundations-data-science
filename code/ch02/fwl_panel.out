@@ -1,0 +1,9 @@
+design sizes: LSDV (2000, 405),  within (2000, 5)
+true beta                      = 0.1000
+pooled OLS (ignores alpha_i)   = 0.4054
+region fixed effects only      = 0.2307
+LSDV with 400 worker dummies   = 0.101862
+within (demeaned, FWL)         = 0.101862
+max |e_LSDV - e_within|        = 8.7e-15
+year effects equal?            True
+residual dof: correct = 1595, naive within = 1995

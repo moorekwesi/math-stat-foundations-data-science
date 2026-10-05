@@ -1,0 +1,14 @@
+column sums of A: [0.45 0.6  0.45] (all < 1: productive economy)
+Leontief inverse L = (I - A)^-1 =
+ [[1.2414 0.2132 0.1254]
+ [0.4138 1.5862 0.3448]
+ [0.2759 0.4514 1.442 ]]
+gross output x = [ 737.3  1427.59 1679.  ]
+check x - Ax = f: True
+output multiplier of agriculture  = 1.9310
+output multiplier of industry     = 2.2508
+output multiplier of services     = 1.9122
+change in output by sector: [ 12.54  34.48 144.2 ]  total = 191.22
+jobs created by the shock = ell^T L df = 1297.8
+spectral radius of A = 0.5152
+max |L - sum_{k<=30} A^k| = 1.25e-09

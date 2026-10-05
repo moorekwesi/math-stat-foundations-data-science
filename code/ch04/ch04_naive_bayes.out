@@ -1,0 +1,10 @@
+Estimated prior P(poor) = 0.306
+  P(thatch roof | poor) = 0.555   | non-poor) = 0.151
+  P(no phone    | poor) = 0.442   | non-poor) = 0.102
+  P(no toilet   | poor) = 0.606   | non-poor) = 0.204
+  P(size > 6    | poor) = 0.396   | non-poor) = 0.143
+
+Test accuracy (threshold 0.5)         = 0.829
+Max |ours - sklearn BernoulliNB|      = 3.33e-16
+Posterior P(poor | all four deprivations) = 0.983
+Posterior P(poor | none of them)          = 0.048

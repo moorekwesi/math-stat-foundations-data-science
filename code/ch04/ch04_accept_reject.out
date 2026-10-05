@@ -1,0 +1,7 @@
+envelope constant M = sup f/g      = 2.6697
+acceptance rate: theory 1/M        = 0.3746
+                 simulated         = 0.3736
+accepted draws                     = 74718
+mean: target 0.3000, sample 0.2986
+var : target 0.02100, sample 0.02073
+KS p-value (first 20000 draws)     = 0.165

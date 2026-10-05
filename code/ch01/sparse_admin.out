@@ -1,0 +1,8 @@
+F is 500,000 x 20,000 with 500,000 non-zeros (density 3.5e-04)
+dense storage would need 80 GB; CSR uses 8.0 MB
+firm sizes and mean wages via F^T x in 7.3 ms
+largest firm: 46 workers; mean firm size 25.0
+agrees with np.bincount: True
+D^T D is diagonal: True   diagonal = workers per district, e.g. [1900 2120 2050 2040]
+OLS on district dummies = district means of log wage: True
+co-employment matrix (2000 x 2000): 2,220 non-zeros, format csr

@@ -1,0 +1,8 @@
+shape of X: (5, 3)  column means after centring: [0. 0. 0.]
+covariance matrix equals np.cov: True
+residual of S x = b: 4.440892098500626e-16
+eigenvalues of S:       [0.5149 0.3445 0.1612]
+s**2/(n-1) from SVD:    [0.5149 0.3445 0.1612]
+OLS coefficients (true 2.0, 0.5): [1.912 0.517]
+headcount ratio below z: 0.195
+mean poverty gap ratio:  0.062

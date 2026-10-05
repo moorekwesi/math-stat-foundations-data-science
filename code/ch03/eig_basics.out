@@ -1,0 +1,13 @@
+char. poly coefficients : [ 1. -7. 10.]
+roots of polynomial     : [2. 5.]
+eigenvalues (eig)       : [2. 5.]
+trace = sum, det = prod : 7.0 7.0 10.0 10.0
+residuals ||Av - lv||   : [0. 0.]
+||A - V D V^-1||        : 0.0
+A^10 via eigen:
+ [[6510758. 3254867.]
+ [6509734. 3255891.]]
+max |difference| from matrix_power: 0.0
+Jordan block eigenvalues: [2. 2.]
+eigenvector matrix rank : 1
+cond(VJ) (huge => defective): 4.50e+15

@@ -1,0 +1,6 @@
+Estimated run time at 1e9 operations per second
+       n      n log n          n^2          n^3
+   1e+03     1.0e-05s     1.0e-03s     1.0e+00s
+   1e+05     1.7e-03s     1.0e+01s     1.0e+06s
+   1e+07     2.3e-01s     1.0e+05s     1.0e+12s
+one year is about 3.16e+07 seconds

@@ -1,0 +1,7 @@
+Convex QP:  p* = 0.5000,  d* = max q(lam) = 0.5000 at lam = 1
+  duality gap = 0.00e+00  (Slater holds: x = (1, 1) is strictly feasible)
+
+Knapsack: projects chosen [1 0 0 1 1 0]  cost = 13  p* = 23.0
+  benefit-cost ratios: [2.    1.857 1.75  1.6   1.667 1.5  ]
+  dual bound d* = min q(lam) = 24.750 at lam = 1.750
+  duality gap d* - p* = 1.750  (weak duality: d* >= p*)

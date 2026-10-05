@@ -1,0 +1,16 @@
+n enumerators are randomly assigned to n districts.
+Event: at least one enumerator is sent to his or her home district.
+
+   n   incl-excl   simulated   1 - 1/e
+   2    0.500000    0.503450  0.632121
+   3    0.666667    0.667120  0.632121
+   5    0.633333    0.635330  0.632121
+  10    0.632121    0.631990  0.632121
+  50    0.632121    0.631330  0.632121
+
+Continuity: P(first six within n rolls) = 1 - (5/6)^n increases to 1
+  n =  1: 0.166667
+  n =  5: 0.598122
+  n = 10: 0.838494
+  n = 25: 0.989517
+  n = 50: 0.999890

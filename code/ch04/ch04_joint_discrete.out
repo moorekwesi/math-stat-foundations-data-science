@@ -1,0 +1,16 @@
+Joint PMF with marginals
+     non-poor  poor  P(size)
+1-2      0.15  0.02     0.17
+3-4      0.26  0.06     0.32
+5-6      0.20  0.11     0.31
+7+       0.09  0.11     0.20
+P(poor) = 0.300
+
+     P(poor | size)  P(size | poor)
+1-2           0.118           0.067
+3-4           0.188           0.200
+5-6           0.355           0.367
+7+            0.550           0.367
+
+max |p(x,y) - p(x)p(y)| = 0.050  -> dependent
+max |empirical - true| over 8 cells (n = 50000) = 0.0034

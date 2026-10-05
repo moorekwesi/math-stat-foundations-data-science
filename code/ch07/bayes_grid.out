@@ -1,0 +1,7 @@
+Logit take-up posterior on a 401 x 401 grid, n = 30
+  MLE  (grid)      : a =  0.480, b = -0.557
+  MAP  (grid)      : a =  0.420, b = -0.531
+  posterior mean   : a =  0.488, b = -0.595
+  posterior sd of b = 0.343; 95% credible interval for b: [-1.310, 0.038]
+  P(b < 0 | data)  = 0.9661
+  posterior predictive P(take-up | 4 km) = 0.154

@@ -1,0 +1,6 @@
+softmax gradient X'(P - Y): max abs error 1.23e-07
+
+                   MC var(slope)      theory
+OLS                    2.677e-03   2.572e-03
+GLS (= WLS)            1.320e-03   1.318e-03
+efficiency gain of GLS: 1.95x smaller variance

@@ -1,0 +1,9 @@
+seed 803: [-0.298183 -0.122465 -0.253373]
+seed 803 again identical: True   seed 804 differs: True
+first draw of 3 spawned streams: [0.160771, 0.296841, 0.682341]
+python 3.9.13 | numpy 1.23.5 | scipy 1.9.3 | pandas 1.5.2
+total, original order : 162075748960.387360
+total, shuffled order : 162075748960.387329
+total, sorted order   : 162075748960.387360
+relative differences  : -1.9e-16, 0.0e+00
+(0.1 + 0.2) + 0.3 == 0.1 + (0.2 + 0.3) ? False

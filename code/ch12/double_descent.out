@@ -1,0 +1,9 @@
+features p =    10  (p/n =  0.25)  median test MSE =    0.3485
+features p =    20  (p/n =  0.50)  median test MSE =    0.2924
+features p =    30  (p/n =  0.75)  median test MSE =    0.4592
+features p =    40  (p/n =  1.00)  median test MSE =   13.1010
+features p =    50  (p/n =  1.25)  median test MSE =    0.9321
+features p =   101  (p/n =  2.52)  median test MSE =    0.2985
+features p =   416  (p/n = 10.40)  median test MSE =    0.2237
+features p =  1200  (p/n = 30.00)  median test MSE =    0.2172
+peak at p = 40 (interpolation threshold p = n = 40)

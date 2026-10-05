@@ -1,0 +1,8 @@
+T = 300, N = 100 indicators, 149 expanding-window forecasts (h = 1)
+model         RMSE  rel. AR     DM    90% block-boot CI
+AR(1)        0.995    1.000
+PCA (DI)     0.766    0.769   5.46      [0.720, 0.823]
+ridge        0.773    0.776   4.55      [0.720, 0.844]
+lasso        0.770    0.773   5.21      [0.721, 0.828]
+last tuned ridge lambda = 215, lasso alpha = 0.0316
+DM > 0 means the model beats AR(1); compare with N(0,1) quantiles

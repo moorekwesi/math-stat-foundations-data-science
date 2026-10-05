@@ -1,0 +1,8 @@
+Coverage of the nominal 95% t-interval for the mean income
+true mean = 1808.0, replications = 20000
+     n  coverage  miss low  miss high   avg len
+    10     0.839     0.159      0.001    2693.1
+    30     0.885     0.113      0.002    1566.7
+   100     0.916     0.079      0.005     890.7
+   500     0.940     0.050      0.010     409.1
+figure: 7 of 60 intervals miss the true mean

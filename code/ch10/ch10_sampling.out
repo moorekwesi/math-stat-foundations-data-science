@@ -1,0 +1,10 @@
+Pareto by inverse CDF: mean 8306.4 (theory 8333.3), KS p-value 0.181
+household size freq : [0.099 0.181 0.223 0.198 0.169 0.13 ]
+target probabilities: [0.1  0.18 0.22 0.2  0.17 0.13]
+
+AR for Beta(2.7,6.3): M = 2.6697, acceptance rate 0.3720 (theory 1/M = 0.3746)
+   sample mean 0.2985 (theory 0.3000), KS p-value 0.072
+   N(0,1) truncated at c = 0: naive acceptance 0.4981
+   N(0,1) truncated at c = 1: naive acceptance 0.1570
+   N(0,1) truncated at c = 2: naive acceptance 0.0228
+   N(0,1) truncated at c = 3: naive acceptance 0.0014

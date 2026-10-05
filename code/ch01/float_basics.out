@@ -1,0 +1,22 @@
+0.1 + 0.2 == 0.3 ? False
+0.1 + 0.2 = 0.30000000000000004   0.1 stored as 0.10000000000000000555
+0.1 in hexadecimal: 0x1.999999999999ap-4
+float64  eps = 2.220e-16  max = 1.798e+308  tiny = 2.225e-308  digits = 15
+float32  eps = 1.192e-07  max = 3.403e+38  tiny = 1.175e-38  digits = 6
+unit roundoff u = eps/2 = 1.110e-16
+spacing(ulp) at    1e+00: 2.220e-16
+spacing(ulp) at    1e+03: 1.137e-13
+spacing(ulp) at    1e+08: 1.490e-08
+spacing(ulp) at    1e+16: 2.000e+00
+1e16 + 1 - 1e16 = 0.0
+2**53 + 1 == 2**53 as floats ? True
+1 + eps/2 == 1 ? True
+exp(709), exp(710) = [8.21840746e+307             inf]
+inf - inf = nan   1/inf = 0.0
+5e-324 (smallest subnormal) = 5e-324   5e-324 / 2 = 0.0
+nan == nan ? False   np.isnan(nan): True
+int64: 2**62 * 2 = -9223372036854775808   (wrap-around, no warning)
+40000.7 cast to int16 -> -25536   (cf. Ariane 5)
+np.isclose(0.1 + 0.2, 0.3): True
+np.isclose(1e-10, 2e-10)  : True  <- default atol=1e-8 dominates!
+np.isclose(1e-10, 2e-10, atol=0): False

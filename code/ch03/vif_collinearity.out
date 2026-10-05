@@ -1,0 +1,17 @@
+educ_spend    VIF =  11.75   1/(1-R^2) =  11.75
+health_spend  VIF =  11.91   1/(1-R^2) =  11.91
+road_density  VIF =   1.16   1/(1-R^2) =   1.16
+pupil_teacher VIF =   1.12   1/(1-R^2) =   1.12
+eigenvalues of R : [0.0434 0.7047 0.9408 2.3111]
+sum VIF = sum 1/lambda: 25.945 25.945
+condition indices sqrt(lmax/l): [7.3  1.81 1.57 1.  ]
+smallest eigvec  : [-0.704  0.71  -0.025 -0.011]
+ rho   sd(OLS b1)  sd(ridge b1)  1/sqrt(1-rho^2)
+0.00      0.153       0.145        1.00
+0.50      0.159       0.146        1.15
+0.80      0.248       0.203        1.67
+0.90      0.337       0.229        2.29
+0.95      0.451       0.234        3.20
+0.98      0.723       0.218        5.03
+0.99      1.015       0.183        7.09
+cond(X'X) = 53.0; cond(X'X + 10 I) = 25.0

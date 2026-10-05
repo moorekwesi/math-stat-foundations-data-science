@@ -1,0 +1,8 @@
+true return = 0.08, 1000 samples of n = 2000
+estimator                           mean      sd    plim
+OLS, true schooling               0.0973  0.0031  0.0971
+OLS, mismeasured schooling        0.0774  0.0029  0.0773
+IV (reform exposure)              0.0807  0.0204  0.0800
+median first-stage F = 45.8
+share of IV estimates within 1.96 sd of truth: 0.946
+(IV row reports the median: IV has heavy tails in finite samples)

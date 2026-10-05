@@ -1,0 +1,21 @@
+A =
+ [[-4.  2.  2. -4. -4.]
+ [-6.  3.  3. -6. -6.]
+ [ 5. -4. -2.  6.  4.]
+ [ 1.  1. -1.  0.  2.]]
+
+singular values: [16.6793  2.7929  0.      0.    ]
+rank r = 2, m = 4, n = 5
+dim col(A)   = 2   dim null(A^T) = 2   (sum = m = 4)
+dim row(A)   = 2   dim null(A)   = 3   (sum = n = 5)
+max |A N|          = 3.77e-15
+max |row^T null|   = 1.49e-16
+max |col^T lnull|  = 4.68e-17
+
+b in col(A)    : infinitely many solutions (3 free parameters)
+b not in col(A): no solution (b not in col(A))
+tall full-rank : unique solution
+
+||A x_p - b||   = 6.84e-15
+||A x_alt - b|| = 1.12e-14
+||x_p|| = 0.7150 <= ||x_alt|| = 1.5174

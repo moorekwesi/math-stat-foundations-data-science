@@ -1,0 +1,11 @@
+function                           formula   max abs error
+a'x                                      a        2.55e-11
+x'Ax                             (A + A')x        4.21e-11
+||y - Zb||^2                  -2Z'(y - Zb)        2.63e-09
+tr(BX)                                  B'        3.55e-10
+tr(X'BX)                         (B + B')X        1.06e-09
+log det S                             S^-T        3.29e-10
+tr(B S^-1)                 -(S^-1 B S^-1)'        7.63e-11
+a'S^-1 a                    -S^-T aa' S^-T        1.15e-11
+
+Hessian of x'Ax vs A + A': max abs error 3.73e-07

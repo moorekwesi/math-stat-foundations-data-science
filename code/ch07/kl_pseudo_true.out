@@ -1,0 +1,15 @@
+Part A: KL divergences between normals
+  KL(N(0,1) || N(1,4)) closed form 0.44315, quadrature 0.44315
+  KL(N(1,4) || N(0,1)) closed form 1.30685  (KL is not symmetric)
+  Bernoulli p = 0.3: KL(p || p+d) vs d^2 I(p)/2, I(p) = 1/(p(1-p))
+    d =  0.10: KL = 2.160e-02, approx = 2.381e-02, ratio = 0.9072
+    d =  0.03: KL = 2.069e-03, approx = 2.143e-03, ratio = 0.9654
+    d =  0.01: KL = 2.352e-04, approx = 2.381e-04, ratio = 0.9877
+
+Part B: exponential model fitted to gamma(shape 3) data
+  pseudo-true rate 1/E[X] = 0.3333
+  n =     50: MLE rate = 0.3624
+  n =    500: MLE rate = 0.3337
+  n =   5000: MLE rate = 0.3386
+  n =  50000: MLE rate = 0.3324
+  KL(f0 || best exponential) = 0.2510 nats (misspecification gap)

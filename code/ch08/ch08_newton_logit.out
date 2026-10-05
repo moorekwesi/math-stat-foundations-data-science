@@ -1,0 +1,14 @@
+Newton iterations: ||gradient||_k and ratio g_k / g_(k-1)^2
+  k = 0:  7.415e+02   
+  k = 1:  1.064e+02   
+  k = 2:  6.459e+00   
+  k = 3:  2.500e-02   
+  k = 4:  3.477e-07    5.57e-04
+  k = 5:  4.077e-13    3.37e+00
+            truth   Newton      se  sklearn
+    const   0.800   0.8505  0.0610   0.8505
+   loginc  -0.900  -0.8892  0.0429  -0.8892
+   female   0.500   0.4503  0.0627   0.4503
+  dist_km  -0.120  -0.1215  0.0078  -0.1215
+GD with step 1/L: ||grad|| after 5000 iters = 4.97e-05
+max |b_GD - b_Newton| = 1.92e-07

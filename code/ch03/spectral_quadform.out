@@ -1,0 +1,15 @@
+sample covariance S:
+ [[0.9556 0.7042]
+ [0.7042 0.63  ]]
+eigenvalues        : [0.07   1.5156]
+Q'Q = I ?          : True
+||S - Q L Q'||     : 1.92e-16
+leading minors     : [0.9556 0.1061]
+Cholesky factor L  :
+ [[0.9775 0.    ]
+ [0.7204 0.3333]]
+eig of indefinite B: [-1.  3.]
+Cholesky of B fails: Matrix is not positive definite
+point [1.5 1.5]: Euclid = 2.121, Mahalanobis = 1.938
+point [ 1.5 -0.5]: Euclid = 1.581, Mahalanobis = 5.056
+share with d^2 > 5.99 (chi2_2 95%): 0.050

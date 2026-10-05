@@ -1,0 +1,10 @@
+OLS (unrestricted):        [0.5386 0.4005 0.403  0.255 ]  sum of slopes = 1.0585
+Restricted (CRS):          [0.5615 0.3894 0.3924 0.2181]  sum of slopes = 1.0000
+SLSQP check:               [0.5615 0.3894 0.3924 0.2181]
+multiplier of the SSR problem (2*lam): 2.0008
+
+H0 constant returns (1 restriction):  F = 0.709   p = 0.401
+H0 CRS and bK = bL (2 restrictions): F = 0.355   p = 0.7014
+
+std errors unrestricted: [0.0535 0.0368 0.0408 0.0548]
+std errors restricted:   [0.046  0.0344 0.0388 0.033 ]

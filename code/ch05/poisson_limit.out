@@ -1,0 +1,15 @@
+Total variation distance between Bin(n, lam/n) and Poisson(lam):
+  n =      5   TV = 0.12488   bound lam^2/n = 0.80000
+  n =     10   TV = 0.05220   bound lam^2/n = 0.40000
+  n =     50   TV = 0.00927   bound lam^2/n = 0.08000
+  n =    100   TV = 0.00457   bound lam^2/n = 0.04000
+  n =   1000   TV = 0.00045   bound lam^2/n = 0.00400
+  n =  10000   TV = 0.00005   bound lam^2/n = 0.00040
+
+Horse kicks: N = 200, mean = 0.610, variance = 0.611
+ deaths  observed  expected(Poisson)
+      0       109       108.7
+      1        65        66.3
+      2        22        20.2
+      3         3         4.1
+      4         1         0.6

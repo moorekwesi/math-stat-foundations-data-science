@@ -1,0 +1,8 @@
+quantity                     closed form            quad  abs error
+dCS, linear demand          128.00000000    128.00000000    0.0e+00
+dCS, CES demand               7.46512492      7.46512492    3.6e-15
+PV of benefits              498.81467625    498.81467625    5.7e-14
+E[income], lognormal       1510.20396976   1510.20396976    7.3e-10
+probit P(y=1)                 0.65542174      0.65542174    0.0e+00
+marginal likelihood           0.03225806      0.03225806    0.0e+00
+posterior mean                0.68750000      0.68750000    1.1e-16

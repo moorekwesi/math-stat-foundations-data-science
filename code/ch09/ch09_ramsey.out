@@ -1,0 +1,11 @@
+Ramsey taxes for revenue R0 = 30 (simulated demands)
+  good          elast.   tax rate   t/(1+t)   e * t/(1+t)
+  staple food    0.30     0.2220    0.1817      0.0545
+  fuel           0.60     0.0999    0.0908      0.0545
+  telecom        1.20     0.0476    0.0454      0.0545
+  beverages      1.80     0.0312    0.0303      0.0545
+  inverse elasticity rule: e_i t_i/(1+t_i) is the same for all i
+
+excess burden: Ramsey 0.8788   uniform rate 1.4438 (t = 0.1321)
+ratio dLoss/dt_i / dRev/dt_i (all equal mu): [1.0576 1.0576 1.0576 1.0576]
+envelope theorem: dLoss/dR = 1.0576  (MCPF; excess burden per extra GHS = 0.0576)

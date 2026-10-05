@@ -1,0 +1,13 @@
+      n      D_n  sqrt(n) D_n  DKW 95% band
+     20   0.2532        1.132        0.3037
+    200   0.0351        0.496        0.0960
+   2000   0.0149        0.665        0.0304
+  20000   0.0042        0.599        0.0096
+ 200000   0.0015        0.678        0.0030
+
+Quantiles of a sample of n = 200 versus the true quantile function
+  p = 0.10: sample   1.13   true   0.98
+  p = 0.25: sample   1.71   true   1.58
+  p = 0.50: sample   3.21   true   2.72
+  p = 0.75: sample   5.16   true   4.66
+  p = 0.90: sample   9.54   true   7.58

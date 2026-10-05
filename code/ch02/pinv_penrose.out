@@ -1,0 +1,14 @@
+rank(A) = 3,  max|pinv - SVD formula| = 2.8e-17
+Penrose (1) A A+ A   = A       max error = 8.9e-16
+Penrose (2) A+ A A+  = A+      max error = 1.7e-16
+Penrose (3) (A A+)^T = A A+    max error = 3.1e-16
+Penrose (4) (A+ A)^T = A+ A    max error = 3.7e-16
+cond(A^T A) = 5.7e+16  (singular in exact arithmetic)
+
+||x_pinv - x_lstsq|| = 1.8e-16
+residual norms: x+ 0.876272, x+ + null 0.876272
+solution norms: x+ 0.2924, x+ + null 0.9843
+x+ in row(A)?  ||(I - A+A) x+|| = 1.3e-16
+
+p = 50 > n = 20: training residual = 1.0e-14 (interpolates)
+ridge, lambda = 1e-08: ||b_ridge - b_minnorm|| = 8.0e-07

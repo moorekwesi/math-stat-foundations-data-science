@@ -1,0 +1,7 @@
+Hill estimate of alpha with k =  100: 2.011
+Hill estimate of alpha with k =  200: 2.219
+Hill estimate of alpha with k =  500: 2.211
+Hill estimate of alpha with k = 1000: 2.246
+true Pareto tail index alpha = 2.0
+Pareto mean x_m*alpha/(alpha-1) = 120000
+top 1% income share: mixture = 0.1255, log-normal only = 0.0628

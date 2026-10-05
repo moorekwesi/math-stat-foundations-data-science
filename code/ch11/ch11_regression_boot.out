@@ -1,0 +1,8 @@
+one sample: slope = 0.0913
+Monte Carlo (true) sd of the slope = 0.01652
+standard error         mean se  ratio to true  95% coverage
+classical OLS          0.01379          0.835         0.906
+HC1 sandwich           0.01615          0.978         0.944
+pairs bootstrap        0.01608          0.973         0.945
+residual bootstrap     0.01363          0.825         0.905
+wild (Rademacher)      0.01599          0.968         0.943

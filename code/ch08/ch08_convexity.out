@@ -1,0 +1,17 @@
+1. Logit NLL: smallest Hessian eigenvalue at random points
+   point 0: min eig = 4.142e-03, max eig = 4.069e-01
+   point 1: min eig = 9.566e-04, max eig = 1.783e-02
+   point 2: min eig = 1.781e-03, max eig = 1.104e-01
+   point 3: min eig = 1.983e-03, max eig = 1.887e-01
+   point 4: min eig = 2.114e-02, max eig = 8.806e-01
+2. Ridge risk (1/2n)||y - Xb||^2 + (lam/2)||b||^2
+   lam =  0.0: mu =   0.9297, L =  99.8013, kappa = L/mu =    107.4
+   lam =  0.1: mu =   1.0297, L =  99.9013, kappa = L/mu =     97.0
+   lam =  1.0: mu =   1.9297, L = 100.8013, kappa = L/mu =     52.2
+   after standardising: kappa = 1.19
+3. Jensen check for f(x) = log(1 + exp(x)) on random pairs
+   min of theta f(a) + (1-theta) f(b) - f(mix) = 1.05e-11
+4. Cobb-Douglas u = x1^0.3 x2^0.5: concave? quasi-concave?
+   Hessian eigenvalues at (2,3): [-0.1451 -0.0261] -> concave
+   with a=0.9, c=0.8 (sum > 1): [-0.6299  0.4489] -> not concave
+   but min u(mix) - min(u_a, u_b) = 1.23e-05 >= 0 -> quasi-concave

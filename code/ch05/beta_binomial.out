@@ -1,0 +1,6 @@
+MLE y/n = 0.3500
+prior mean = 0.2500, posterior mean = 0.3214
+posterior mean = w*prior mean + (1-w)*MLE with w = 0.2857
+max |grid posterior - Beta(18,38) pdf| = 4.09e-14
+95% credible interval: [0.2068, 0.4481]
+P(take-up > 0.30 | data) = 0.6224

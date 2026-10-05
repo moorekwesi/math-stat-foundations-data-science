@@ -1,0 +1,10 @@
+Simulated data, n = 3000, true return to schooling = 0.080
+estimator                    beta_s  robust se
+OLS                          0.1525     0.0063
+IV (distance)                0.0686     0.0134
+2SLS (distance, programme)   0.0704     0.0092
+two-step efficient GMM       0.0705     0.0092
+Hansen J (valid instruments)   =  0.040, df = 1, p = 0.841
+Two-step GMM with assets: beta_s = 0.1349
+Hansen J (invalid instrument)  = 121.83, df = 1, p = 2.5e-28
+First-stage F (distance, programme) = 890.8

@@ -1,0 +1,13 @@
+Part A: R = 20000 samples of size n = 50
+  Poisson mean    : Var(xbar) = 0.03966, CRLB lam/n = 0.04000
+  Exponential rate: Var(1/xbar) = 0.005398, CRLB rate^2/n = 0.005000
+                    bias = 0.0103 (theory rate/(n-1) = 0.0102)
+
+Part B: Cauchy location, n = 20, R = 4000
+  Var(MLE) = 0.1150; 1/I(theta) = 2/n = 0.1000
+  observed information: min 0.87, median 10.66, max 23.97 (expected 10.0)
+  coverage of 95% Wald intervals:
+    expected information: 0.928
+    observed information: 0.938
+  Var(MLE | J below median) = 0.1486, mean 1/J = 0.1365
+  Var(MLE | J above median) = 0.0811, mean 1/J = 0.0756

@@ -1,0 +1,11 @@
+sample mean = 2.936, sample variance = 8.734, ratio = 2.97
+theory: Var = mu + mu^2/r = 9.000
+MoM estimates: r = 1.487, p = 0.336
+ k   observed  Poisson  NegBin
+ 0    0.1970   0.0531  0.1977
+ 1    0.1976   0.1558  0.1952
+ 2    0.1574   0.2288  0.1611
+ 5    0.0652   0.0965  0.0674
+10    0.0124   0.0007  0.0118
+15    0.0016   0.0000  0.0018
+log-likelihood: Poisson = -12960.5, NegBin = -11075.3

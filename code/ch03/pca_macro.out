@@ -1,0 +1,7 @@
+explained variance ratio (first 6): [0.527 0.192 0.019 0.018 0.016 0.015]
+cumulative (first 3)              : [0.527 0.719 0.739]
+R^2 of true factor 1 on 2 PCs: 0.985
+R^2 of true factor 2 on 2 PCs: 0.979
+unstandardised PC1 top series: [ 5 19 18] scales: [19.3 16.8 16.1]
+unstandardised EVR(PC1): 0.621
+out-of-sample RMSE: AR(1) 0.783, AR + 2 factors 0.666, ratio 0.851

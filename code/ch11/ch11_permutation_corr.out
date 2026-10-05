@@ -1,0 +1,6 @@
+n = 24 districts; Pearson r = 0.2609, Spearman rho = 0.0539
+permutation p (by hand, M = 20000)     = 0.2128
+permutation p (scipy, pairings)      = 0.2418
+normal-theory t-test p (pearsonr)    = 0.2182
+Spearman rank-correlation p          = 0.8024
+sd of permutation r = 0.2080; 1/sqrt(n-1) = 0.2085

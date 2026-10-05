@@ -1,0 +1,12 @@
+  d   f1 estimate  s.e.      f2 estimate  s.e.      Var f2 (theory)
+  1     0.99664  2.8e-03     1.00061  1.5e-03    2.337e-01
+  5     0.99959  1.3e-03     0.99842  4.3e-03    1.858e+00
+ 20     1.00064  6.3e-04     1.00679  2.8e-02    6.571e+01
+ 50     1.00026  4.0e-04     0.93697  1.7e-01    3.635e+04
+
+multinomial probit P(choose alternative 1)
+   bivariate normal cdf: 0.47498
+   frequency simulator R=   100: 0.53000  (s.e. 0.05016)
+   frequency simulator R=  1000: 0.48600  (s.e. 0.01581)
+   frequency simulator R= 10000: 0.47600  (s.e. 0.00499)
+   frequency simulator R=100000: 0.47502  (s.e. 0.00158)

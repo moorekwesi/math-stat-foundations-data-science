@@ -1,0 +1,7 @@
+Rejection rates of a true null at the 5% level (400 reps, B = 399)
+   G  CR1 + N(0,1)  CR1 + t(G-1)  wild cluster
+   5         0.618         0.522         0.080
+   8         0.295         0.200         0.085
+  12         0.158         0.105         0.065
+  20         0.113         0.095         0.072
+  40         0.070         0.065         0.052

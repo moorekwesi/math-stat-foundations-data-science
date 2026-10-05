@@ -1,0 +1,11 @@
+Kolmogorov-Smirnov p-values
+  T against Gamma(2, scale=2): 0.978
+  S against Uniform(0, 1)    : 0.115
+
+corr(T, S)   =  0.0005
+corr(T, S^2) =  0.0001
+
+   t     s    joint  product
+   2  0.25   0.0661   0.0661
+   4  0.50   0.2975   0.2976
+   8  0.90   0.8162   0.8160
