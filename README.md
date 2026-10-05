@@ -7,8 +7,8 @@
 
 <img src="cover.png" alt="Cover of the book" width="260" align="right">
 
-**DEP 803 Course Book, First Edition (2026)** · Stephen E. Moore · Department of Data Science and
-Economic Policy, University of Cape Coast, Ghana
+**DEP 803 Course Book, First Edition (2026)** · Stephen E. Moore · Department of Mathematics,
+University of Cape Coast, Ghana
 
 🌐 **Author's website:** [https://moorestephen.info/](https://moorestephen.info/)
 📘 **The book (PDF):** [Mathematical_and_Statistical_Foundations_for_Data_Science.pdf](Mathematical_and_Statistical_Foundations_for_Data_Science.pdf)
@@ -140,8 +140,8 @@ The book's reference list contains about 350 further works, chosen chapter by ch
 ## Citing the book
 
 > S. E. Moore (2026). *Mathematical and Statistical Foundations for Data Science, with Python and
-> Applications to Economic Policy*. Course book for DEP 803, Department of Data Science and
-> Economic Policy, University of Cape Coast, Ghana. https://moorestephen.info/
+> Applications to Economic Policy*. Course book for DEP 803, Department of Mathematics,
+> University of Cape Coast, Ghana. https://moorestephen.info/
 
 ## Licence and permissions
 
@@ -157,7 +157,7 @@ and on the copyright page of the book.
 
 ## Author
 
-**Stephen E. Moore**, Department of Data Science and Economic Policy, University of Cape Coast, Ghana
+**Stephen E. Moore**, Department of Mathematics, University of Cape Coast, Ghana
 Website: [https://moorestephen.info/](https://moorestephen.info/)
 
 Corrections and suggestions are welcome: please open an issue in this repository.
