@@ -1,0 +1,18 @@
+Value of GHS 1000 after 2 years at a nominal 20% a year
+   compounding      m  value (GHS)
+        annual      1      1440.00
+   semi-annual      2      1464.10
+     quarterly      4      1477.46
+       monthly     12      1486.91
+         daily    365      1491.66
+    continuous    inf      1491.82
+
+(1 + 1/m)^m approaches e = 2.718281828...
+m =         1   (1 + 1/m)^m = 2.00000000
+m =        10   (1 + 1/m)^m = 2.59374246
+m =       100   (1 + 1/m)^m = 2.70481383
+m =    10,000   (1 + 1/m)^m = 2.71814593
+m = 1,000,000   (1 + 1/m)^m = 2.71828047
+r = 0.05: doubling time = 14.21 years, rule of 70 gives 14.00
+r = 0.10: doubling time =  7.27 years, rule of 70 gives  7.00
+r = 0.20: doubling time =  3.80 years, rule of 70 gives  3.50

@@ -1,0 +1,8 @@
+h =  1.000   [C(10+h) - C(10)] / h = 14.5000
+h =  0.100   [C(10+h) - C(10)] / h = 14.0500
+h =  0.010   [C(10+h) - C(10)] / h = 14.0050
+h =  0.001   [C(10+h) - C(10)] / h = 14.0005
+exact marginal cost C'(10) = 4 + 1.0*10 = 14.0
+grid search: best q = 12.0, profit = 116.0
+by calculus: q* = 36/3 = 12, profit = 116.0
+marginal revenue = marginal cost at q*: 16 = 16

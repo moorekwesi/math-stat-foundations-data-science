@@ -1,0 +1,8 @@
+loan: 10000.0  rate: 0.24  type of years: int
+first element: -1000  last element: 500  length: 4
+annual payment: 5047.18
+year  interest  principal   balance
+   1   2400.00    2647.18   7352.82
+   2   1764.68    3282.51   4070.31
+   3    976.87    4070.31      0.00
+NPV at 10%: -21.04 -> reject the project

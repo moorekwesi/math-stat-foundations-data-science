@@ -1,0 +1,13 @@
+ t  price   simple return   log return
+ 1  55.00        0.1000       0.0953
+ 2  50.00       -0.0909      -0.0953
+ 3  52.00        0.0400       0.0392
+ 4  49.40       -0.0500      -0.0513
+sum of simple returns        : -0.0009
+sum of log returns           : -0.0121
+ln(P_end / P_start)          : -0.0121
+compound simple: prod(1+r)-1 : -0.012
+x = 0.01  ln(1+x) = 0.0100  error = 0.0000
+x = 0.05  ln(1+x) = 0.0488  error = 0.0012
+x = 0.10  ln(1+x) = 0.0953  error = 0.0047
+x = 0.50  ln(1+x) = 0.4055  error = 0.0945

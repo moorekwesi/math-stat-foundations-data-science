@@ -53,6 +53,14 @@ Every chapter contains:
 - **exercises after every section**, tagged *Theory*, *Python*, *Policy* and *★ Graduate*,
   with answers and hints to selected exercises in Appendix B
 
+**One class, several backgrounds.** The book is written in two layers for students coming from
+accounting, economics, mathematics and other first degrees. Chapter 0 opens with a diagnostic
+self-test and a refresher of the mathematics the course assumes. Every chapter then has *Bridge*
+boxes (the idea seen from accounting, economics or finance), *In plain words* notes, *Check Your
+Understanding* questions and *Warm-up* exercises with fully worked solutions. Longer proofs and
+technical extensions are marked *★ Going Deeper*, as stretch material for mathematics graduates.
+(Chapters 0–2 currently follow this design; the remaining chapters are being revised.)
+
 Every Python listing in the book has been run, and the output printed beneath it is the real
 output of the program in this repository.
 
@@ -60,6 +68,7 @@ output of the program in this repository.
 
 | Part | Chapter | Code folder | Topics and programs |
 |---|---|---|---|
+| Getting ready | 0. Mathematical Refresher and Diagnostic Self-Test | [`code/ch00`](code/ch00) | logs and compound growth, summation, derivatives and marginal analysis, integrals and consumer surplus, matrices by hand, reading proofs, Lab 0: a first Python session |
 | I. Linear algebra for modelling | 1. Mathematical Notation, Vectors, Matrices and Computational Precision | [`code/ch01`](code/ch01) | norms and inner products, a price index, Leontief input–output, centring and covariance, floating point, cancellation, log-sum-exp, Kahan summation, Welford's variance, vectorisation and sparse matrices |
 | | 2. Linear Algebra for Modelling: Rank, Projections and Decompositions | [`code/ch02`](code/ch02) | rank and identification, the dummy-variable trap, projections and the hat matrix, Gram–Schmidt, the Frisch–Waugh–Lovell theorem and fixed effects, leverage, LU/Cholesky/QR, the pseudoinverse and minimum-norm solutions |
 | | 3. Eigenvalues, the SVD, PCA and Conditioning | [`code/ch03`](code/ch03) | labour-market Markov chains, quadratic forms, power iteration, PageRank, SVD and low-rank approximation, PCA of macro indicators and an asset (wealth) index, condition numbers, VIFs |

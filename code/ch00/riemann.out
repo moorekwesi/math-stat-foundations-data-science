@@ -1,0 +1,9 @@
+n =     2 strips: sum = 9.500000   error = 5.00e-01
+n =     4 strips: sum = 9.875000   error = 1.25e-01
+n =    10 strips: sum = 9.980000   error = 2.00e-02
+n =   100 strips: sum = 9.999800   error = 2.00e-04
+n =  1000 strips: sum = 9.999998   error = 2.00e-06
+
+consumer surplus (numerical) = 25.0000; triangle 0.5*5*10 = 25
+PV of income stream: numerical 7869.39, formula 7869.39
+P(X <= 0.5) for density 2x: 0.25

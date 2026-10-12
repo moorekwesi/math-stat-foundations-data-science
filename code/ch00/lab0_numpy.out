@@ -1,0 +1,10 @@
+sales: [48.8 51.5 53.  53.1 59.  57.4 61.1 63.1 70.5 63.3 65.5 71.3]
+shape: (12,)  mean: 59.8  max: 71.3  in month 12
+VAT at 15% (first 3): [7.32 7.72 7.95]
+months with falling sales: [ 6 10]
+average monthly growth: 3.69%
+[1, 2] * 2 = [1, 2, 1, 2]    np.array([1, 2]) * 2 = [2 4]
+X @ X =
+ [[ 7. 10.]
+ [15. 22.]]
+fitted trend: sales = 47.33 + 1.92 * month

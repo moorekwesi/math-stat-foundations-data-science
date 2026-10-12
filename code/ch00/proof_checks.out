@@ -1,0 +1,9 @@
+sum of first n odd numbers equals n^2 for n = 1..1000: True
+n^2 + n + 41 is prime for n = 0 .. 39
+counterexample: n = 40 gives 1681 = 41 * 41
+grid points where x^2 > x fails: [0.0, 0.25, 0.5, 0.75, 1.0]
+owner invests cash                 A =  5000  L + E =  5000
+bank loan received                 A =  7000  L + E =  7000
+buy equipment for cash             A =  7000  L + E =  7000
+sell goods for cash (profit 300)   A =  7300  L + E =  7300
+repay part of loan                 A =  6800  L + E =  6800

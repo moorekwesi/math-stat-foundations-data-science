@@ -1,0 +1,13 @@
+sum_{i=1}^4 (2i-1)      = 16
+prod_{k=1}^3 (1 + k/2)  = 7.5
+table of i*j (rows i, columns j):
+[[1 2]
+ [2 4]
+ [3 6]]
+double sum              = 18 = (1+2+3)*(1+2) = 18
+x = [2. 4. 6. 8.]  mean = 5.0
+deviations x_i - xbar   = [-3. -1.  1.  3.]  (they sum to 0.0 )
+sum of squared deviations = 20.0
+sample variance s^2     = 6.6667  numpy: 6.6667
+weights sum to 1.0 ; portfolio return sum w_i r_i = 0.076
+trial balance: total debits = 21000  total credits = 21000
