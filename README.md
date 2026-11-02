@@ -2,7 +2,7 @@
 
 ### with Python and Applications to Economic Policy
 
-[![Book: CC BY 4.0](https://img.shields.io/badge/book-CC%20BY%204.0-lightgrey.svg)](LICENSE-BOOK.md)
+[![Book: CC BY-NC-ND 4.0](https://img.shields.io/badge/book-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE-BOOK.md)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
 <img src="cover.png" alt="Cover of the book" width="260" align="right">
@@ -154,12 +154,13 @@ The book's reference list contains about 350 further works, chosen chapter by ch
 
 ## Licence and permissions
 
-You are free to use, share and adapt these materials, for teaching, learning or any other
-purpose, as long as you give credit to the author.
-
 - **The book** (`Mathematical_and_Statistical_Foundations_for_Data_Science.pdf`) is licensed
-  under the [Creative Commons Attribution 4.0 International Licence (CC BY 4.0)](LICENSE-BOOK.md).
+  under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licence
+  (CC BY-NC-ND 4.0)](LICENSE-BOOK.md). You may copy and share the book, unmodified and for
+  non-commercial purposes, as long as you give credit to the author. Commercial use and the
+  distribution of modified or adapted versions require the author's written permission.
 - **The Python programs** (`code/` and `run_all.py`) are licensed under the [MIT Licence](LICENSE).
+  You may use, modify and share them freely, provided the licence notice is kept.
 
 The full permission statements are in [LICENSE-BOOK.md](LICENSE-BOOK.md) and [LICENSE](LICENSE)
 and on the copyright page of the book.

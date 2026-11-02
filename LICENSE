@@ -23,5 +23,5 @@ SOFTWARE.
 -------------------------------------------------------------------------------
 Scope: this MIT Licence applies to the Python programs in this repository
 (the folder code/ and the file run_all.py). The course book PDF is licensed
-separately under the Creative Commons Attribution 4.0 International Licence;
-see LICENSE-BOOK.md.
+separately under the Creative Commons Attribution-NonCommercial-NoDerivatives
+4.0 International Licence (CC BY-NC-ND 4.0); see LICENSE-BOOK.md.
